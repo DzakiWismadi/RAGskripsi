@@ -1,0 +1,190 @@
+{
+  "runs": [
+    {
+      "run": 1,
+      "timestamp": "2026-02-26 16:32:29",
+      "processed": 8,
+      "baseline_correct": 1,
+      "rag_correct": 5,
+      "fails": 1,
+      "elapsed_seconds": 663.9,
+      "stopped_reason": "time_limit"
+    },
+    {
+      "run": 2,
+      "timestamp": "2026-02-26 19:57:06",
+      "processed": 6,
+      "baseline_correct": 0,
+      "rag_correct": 5,
+      "fails": 0,
+      "elapsed_seconds": 701.8,
+      "stopped_reason": "time_limit"
+    },
+    {
+      "run": 3,
+      "timestamp": "2026-02-26 20:19:18",
+      "processed": 6,
+      "baseline_correct": 0,
+      "rag_correct": 3,
+      "fails": 0,
+      "elapsed_seconds": 630.7,
+      "stopped_reason": "time_limit"
+    },
+    {
+      "run": 4,
+      "timestamp": "2026-02-26 20:30:13",
+      "processed": 9,
+      "baseline_correct": 0,
+      "rag_correct": 5,
+      "fails": 0,
+      "elapsed_seconds": 623.3,
+      "stopped_reason": "time_limit"
+    },
+    {
+      "run": 5,
+      "timestamp": "2026-02-26 20:40:51",
+      "processed": 9,
+      "baseline_correct": 0,
+      "rag_correct": 7,
+      "fails": 0,
+      "elapsed_seconds": 621.0,
+      "stopped_reason": "time_limit"
+    },
+    {
+      "run": 6,
+      "timestamp": "2026-02-26 20:51:16",
+      "processed": 9,
+      "baseline_correct": 0,
+      "rag_correct": 5,
+      "fails": 0,
+      "elapsed_seconds": 609.0,
+      "stopped_reason": "time_limit"
+    },
+    {
+      "run": 7,
+      "timestamp": "2026-02-26 21:02:00",
+      "processed": 10,
+      "baseline_correct": 0,
+      "rag_correct": 10,
+      "fails": 1,
+      "elapsed_seconds": 626.1,
+      "stopped_reason": "time_limit"
+    },
+    {
+      "run": 8,
+      "timestamp": "2026-02-26 21:14:12",
+      "processed": 6,
+      "baseline_correct": 0,
+      "rag_correct": 3,
+      "fails": 0,
+      "elapsed_seconds": 688.2,
+      "stopped_reason": "time_limit"
+    },
+    {
+      "run": 9,
+      "timestamp": "2026-02-26 21:25:41",
+      "processed": 8,
+      "baseline_correct": 0,
+      "rag_correct": 5,
+      "fails": 0,
+      "elapsed_seconds": 678.9,
+      "stopped_reason": "time_limit"
+    },
+    {
+      "run": 10,
+      "timestamp": "2026-02-26 21:36:45",
+      "processed": 8,
+      "baseline_correct": 0,
+      "rag_correct": 4,
+      "fails": 1,
+      "elapsed_seconds": 651.4,
+      "stopped_reason": "time_limit"
+    },
+    {
+      "run": 11,
+      "timestamp": "2026-02-26 21:48:01",
+      "processed": 8,
+      "baseline_correct": 0,
+      "rag_correct": 3,
+      "fails": 0,
+      "elapsed_seconds": 637.7,
+      "stopped_reason": "time_limit"
+    },
+    {
+      "run": 12,
+      "timestamp": "2026-02-26 21:58:42",
+      "processed": 7,
+      "baseline_correct": 0,
+      "rag_correct": 6,
+      "fails": 0,
+      "elapsed_seconds": 616.4,
+      "stopped_reason": "time_limit"
+    },
+    {
+      "run": 13,
+      "timestamp": "2026-02-26 22:09:29",
+      "processed": 8,
+      "baseline_correct": 1,
+      "rag_correct": 6,
+      "fails": 0,
+      "elapsed_seconds": 619.1,
+      "stopped_reason": "time_limit"
+    },
+    {
+      "run": 14,
+      "timestamp": "2026-02-26 22:20:14",
+      "processed": 7,
+      "baseline_correct": 2,
+      "rag_correct": 6,
+      "fails": 0,
+      "elapsed_seconds": 619.6,
+      "stopped_reason": "time_limit"
+    },
+    {
+      "run": 15,
+      "timestamp": "2026-02-26 22:32:34",
+      "processed": 7,
+      "baseline_correct": 0,
+      "rag_correct": 3,
+      "fails": 2,
+      "elapsed_seconds": 734.9,
+      "stopped_reason": "time_limit"
+    },
+    {
+      "run": 16,
+      "timestamp": "2026-02-26 22:44:58",
+      "processed": 8,
+      "baseline_correct": 0,
+      "rag_correct": 7,
+      "fails": 0,
+      "elapsed_seconds": 638.2,
+      "stopped_reason": "time_limit"
+    },
+    {
+      "run": 17,
+      "timestamp": "2026-02-26 22:55:54",
+      "processed": 8,
+      "baseline_correct": 0,
+      "rag_correct": 3,
+      "fails": 2,
+      "elapsed_seconds": 637.7,
+      "stopped_reason": "time_limit"
+    },
+    {
+      "run": 18,
+      "timestamp": "2026-02-26 22:57:11",
+      "processed": 3,
+      "baseline_correct": 0,
+      "rag_correct": 0,
+      "fails": 3,
+      "elapsed_seconds": 61.4,
+      "stopped_reason": "all_done"
+    }
+  ],
+  "total_rows": 135,
+  "completed": 135,
+  "baseline_correct": 4,
+  "rag_correct": 86,
+  "fail_count": 10,
+  "total_elapsed_seconds": 11059.130003452301
+}

@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd:*)",
+      "WebSearch",
+      "Bash(ls:*)",
+      "WebFetch(domain:hightable.io)",
+      "WebFetch(domain:www.isms.online)",
+      "WebFetch(domain:www.dataguard.com)",
+      "WebFetch(domain:www.scrut.io)",
+      "Bash(curl:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(ollama list:*)",
+      "Bash(OLLAMA_MODELS=\"D:/OllamaModels\" ollama pull:*)",
+      "Bash(OLLAMA_MODELS=\"D:/OllamaModels\" ollama list:*)"
+    ]
+  }
+}

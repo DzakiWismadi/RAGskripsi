@@ -1,0 +1,653 @@
+[
+  {
+    "control_id": "A.5.1",
+    "title": "Kebijakan keamanan informasi",
+    "objective": "Memberikan arahan dan dukungan manajemen untuk keamanan informasi sesuai dengan persyaratan bisnis dan hukum serta regulasi yang relevan.",
+    "description": "Kebijakan keamanan informasi harus didefinisikan, disetujui oleh manajemen, dipublikasikan, dan dikomunikasikan kepada seluruh karyawan dan pihak eksternal yang relevan. Kebijakan ini harus mencakup pernyataan komitmen manajemen, tujuan keamanan informasi, ruang lingkup penerapan, kerangka kerja untuk menetapkan sasaran dan pengendalian, serta tanggung jawab umum dan khusus untuk manajemen keamanan informasi. Kebijakan harus ditinjau secara berkala atau ketika terjadi perubahan signifikan untuk memastikan kesesuaian, kecukupan, dan efektivitasnya.",
+    "implementation_guidance": "Organisasi harus menetapkan kebijakan keamanan informasi pada tingkat tertinggi, mendapatkan persetujuan manajemen puncak, dan mendistribusikannya secara luas. Kebijakan harus ditinjau secara berkala minimal setiap tahun."
+  },
+  {
+    "control_id": "A.5.2",
+    "title": "Peran dan tanggung jawab keamanan informasi",
+    "objective": "Memastikan bahwa semua tanggung jawab keamanan informasi didefinisikan dan dialokasikan dengan jelas.",
+    "description": "Semua tanggung jawab keamanan informasi harus didefinisikan dan dialokasikan secara jelas kepada individu atau peran tertentu dalam organisasi. Alokasi tanggung jawab harus konsisten dengan kebijakan keamanan informasi dan mencakup tanggung jawab untuk perlindungan aset individual, pelaksanaan proses keamanan tertentu, aktivitas manajemen risiko, serta pemantauan dan pelaporan kepatuhan. Setiap aset dan proses keamanan harus memiliki pemilik yang bertanggung jawab atas pengendaliannya. Peran keamanan informasi harus mencakup CISO atau penanggung jawab keamanan informasi, pemilik aset, dan personel operasional keamanan.",
+    "implementation_guidance": "Organisasi harus membuat matriks tanggung jawab (RACI) yang mendefinisikan siapa yang bertanggung jawab, akuntabel, dikonsultasikan, dan diinformasikan untuk setiap aspek keamanan informasi."
+  },
+  {
+    "control_id": "A.5.3",
+    "title": "Pemisahan tugas",
+    "objective": "Mengurangi risiko penyalahgunaan aset organisasi melalui pemisahan tugas yang tidak kompatibel.",
+    "description": "Tugas dan area tanggung jawab yang saling bertentangan harus dipisahkan untuk mengurangi peluang modifikasi atau penyalahgunaan aset organisasi yang tidak sah atau tidak disengaja. Pemisahan tugas memastikan bahwa tidak ada satu individu pun yang dapat mengakses, memodifikasi, atau menggunakan aset tanpa otorisasi atau deteksi. Jika pemisahan tugas sulit dilaksanakan, pengendalian kompensasi seperti pemantauan aktivitas, jejak audit, dan pengawasan manajemen harus diterapkan untuk memitigasi risiko.",
+    "implementation_guidance": "Identifikasi tugas-tugas yang memerlukan pemisahan, seperti otorisasi dan pelaksanaan transaksi, pengembangan dan operasi sistem, serta administrasi dan audit keamanan."
+  },
+  {
+    "control_id": "A.5.4",
+    "title": "Tanggung jawab manajemen",
+    "objective": "Memastikan manajemen mengharuskan seluruh personel menerapkan keamanan informasi sesuai kebijakan dan prosedur yang ditetapkan.",
+    "description": "Manajemen harus mengharuskan seluruh karyawan dan kontraktor untuk menerapkan keamanan informasi sesuai dengan kebijakan dan prosedur yang ditetapkan oleh organisasi. Tanggung jawab manajemen mencakup memastikan bahwa personel memahami peran dan tanggung jawab keamanan informasi mereka sebelum diberikan akses, memberikan arahan untuk mematuhi kebijakan keamanan informasi, mencapai tingkat kesadaran keamanan yang sesuai dengan peran mereka, mematuhi syarat dan ketentuan ketenagakerjaan terkait keamanan informasi, dan memastikan tersedianya sumber daya yang memadai untuk implementasi keamanan informasi secara efektif.",
+    "implementation_guidance": "Manajemen harus secara aktif mendukung program keamanan informasi melalui komunikasi rutin, alokasi sumber daya, dan pemberian contoh dalam mematuhi kebijakan keamanan."
+  },
+  {
+    "control_id": "A.5.5",
+    "title": "Kontak dengan otoritas",
+    "objective": "Memelihara kontak yang sesuai dengan otoritas yang relevan.",
+    "description": "Kontak yang sesuai dengan otoritas yang relevan harus dipelihara dan didokumentasikan secara terstruktur. Otoritas yang relevan mencakup penegak hukum, badan regulasi, otoritas pengawas, penyedia layanan darurat, dan lembaga pemerintah terkait keamanan informasi. Kontak ini penting untuk pelaporan insiden keamanan, kepatuhan terhadap persyaratan hukum, dan koordinasi respons terhadap ancaman atau serangan siber yang signifikan. Prosedur harus ditetapkan untuk kapan dan oleh siapa otoritas harus dihubungi.",
+    "implementation_guidance": "Buat dan pelihara daftar kontak otoritas yang relevan termasuk BSSN, kepolisian siber, dan regulator industri yang berlaku."
+  },
+  {
+    "control_id": "A.5.6",
+    "title": "Kontak dengan kelompok kepentingan khusus",
+    "objective": "Memelihara kontak dengan kelompok kepentingan khusus atau forum spesialis keamanan.",
+    "description": "Kontak yang sesuai dengan kelompok kepentingan khusus, asosiasi profesional, atau forum spesialis keamanan informasi harus dipelihara untuk memastikan organisasi tetap mendapatkan informasi terkini tentang ancaman, kerentanan, dan praktik terbaik keamanan informasi. Keanggotaan dalam kelompok ini memungkinkan pertukaran pengetahuan, akses ke saran spesialis, dan peringatan dini tentang ancaman keamanan baru. Partisipasi aktif dalam komunitas keamanan informasi juga meningkatkan kapabilitas respons insiden organisasi.",
+    "implementation_guidance": "Organisasi harus berpartisipasi dalam forum keamanan informasi seperti ISACA, IDSIRTII, dan komunitas keamanan siber nasional yang relevan."
+  },
+  {
+    "control_id": "A.5.7",
+    "title": "Intelijen ancaman",
+    "objective": "Mengumpulkan dan menganalisis informasi tentang ancaman keamanan informasi untuk mengambil tindakan pencegahan.",
+    "description": "Informasi tentang ancaman keamanan informasi harus dikumpulkan dan dianalisis secara sistematis untuk menghasilkan intelijen ancaman yang dapat ditindaklanjuti. Proses ini mencakup pengumpulan data dari berbagai sumber termasuk laporan kerentanan, feed ancaman, analisis malware, dan informasi dari komunitas keamanan. Intelijen ancaman harus digunakan untuk menginformasikan penilaian risiko, meningkatkan pengendalian keamanan, dan memperbarui prosedur respons insiden. Organisasi harus menetapkan proses untuk mengevaluasi relevansi dan keandalan informasi ancaman yang diterima.",
+    "implementation_guidance": "Implementasikan proses pengumpulan dan analisis intelijen ancaman menggunakan sumber terbuka (OSINT), feed ancaman komersial, dan informasi dari mitra keamanan."
+  },
+  {
+    "control_id": "A.5.8",
+    "title": "Keamanan informasi dalam manajemen proyek",
+    "objective": "Memastikan keamanan informasi diintegrasikan ke dalam manajemen proyek organisasi.",
+    "description": "Keamanan informasi harus diintegrasikan ke dalam manajemen proyek organisasi terlepas dari jenis proyeknya untuk memastikan risiko keamanan informasi diidentifikasi dan ditangani sebagai bagian dari siklus hidup proyek. Integrasi ini mencakup penilaian risiko keamanan informasi pada tahap perencanaan, penerapan persyaratan keamanan dalam desain dan implementasi, pengujian keamanan sebelum peluncuran, dan tinjauan keamanan pasca-implementasi. Metodologi manajemen proyek organisasi harus mencakup langkah-langkah keamanan informasi yang wajib di setiap fase proyek.",
+    "implementation_guidance": "Integrasikan checklist keamanan informasi ke dalam metodologi manajemen proyek yang digunakan organisasi, termasuk penilaian risiko keamanan di setiap tonggak proyek."
+  },
+  {
+    "control_id": "A.5.9",
+    "title": "Inventarisasi informasi dan aset terkait lainnya",
+    "objective": "Mengidentifikasi aset organisasi dan mendefinisikan tanggung jawab perlindungan yang sesuai.",
+    "description": "Inventarisasi informasi dan aset terkait lainnya termasuk fasilitas pemrosesan informasi harus diidentifikasi, didokumentasikan, dan dipelihara secara berkala. Inventarisasi harus mencakup semua aset yang penting bagi organisasi termasuk aset informasi (database, file data, dokumentasi), aset perangkat lunak (aplikasi, sistem operasi, tools), aset fisik (komputer, perangkat jaringan, media), dan layanan (komputasi, komunikasi, utilitas). Setiap aset harus memiliki pemilik yang ditunjuk dan klasifikasi yang jelas berdasarkan nilai, sensitivitas, dan kritikalitasnya.",
+    "implementation_guidance": "Buat dan pelihara register aset yang komprehensif menggunakan alat manajemen aset yang mencatat lokasi, pemilik, klasifikasi, dan nilai setiap aset."
+  },
+  {
+    "control_id": "A.5.10",
+    "title": "Penggunaan informasi dan aset terkait yang dapat diterima",
+    "objective": "Memastikan informasi dan aset terkait dilindungi, digunakan, dan ditangani dengan tepat.",
+    "description": "Aturan untuk penggunaan yang dapat diterima dan prosedur penanganan informasi dan aset terkait harus diidentifikasi, didokumentasikan, dan diimplementasikan. Aturan penggunaan yang dapat diterima harus mencakup batasan penggunaan email dan internet, panduan penggunaan perangkat mobile, aturan penggunaan media sosial, prosedur penanganan informasi rahasia, dan kebijakan penggunaan perangkat pribadi untuk keperluan bisnis. Karyawan dan pengguna pihak ketiga harus menandatangani persetujuan atas aturan penggunaan yang dapat diterima sebelum diberikan akses ke informasi dan aset organisasi.",
+    "implementation_guidance": "Kembangkan kebijakan penggunaan yang dapat diterima (AUP) dan pastikan semua pengguna menandatangani dan memahami kebijakan tersebut sebelum mendapatkan akses."
+  },
+  {
+    "control_id": "A.5.11",
+    "title": "Pengembalian aset",
+    "objective": "Memastikan semua aset organisasi dikembalikan saat pemutusan hubungan kerja atau kontrak.",
+    "description": "Personel dan pihak eksternal yang menggunakan aset organisasi harus mengembalikan semua aset organisasi yang mereka miliki setelah pemutusan perjanjian kerja, kontrak, atau perjanjian lainnya. Proses pengembalian aset harus didokumentasikan dan mencakup perangkat keras, perangkat lunak, media penyimpanan, dokumen, kartu akses, kunci, dan aset informasi lainnya. Organisasi harus memiliki prosedur yang jelas untuk memverifikasi bahwa semua aset telah dikembalikan dan untuk menangani situasi di mana aset tidak dapat dikembalikan, termasuk prosedur penghapusan data jarak jauh untuk perangkat mobile.",
+    "implementation_guidance": "Implementasikan checklist pengembalian aset yang terintegrasi dengan proses offboarding karyawan dan pemutusan kontrak pihak ketiga."
+  },
+  {
+    "control_id": "A.5.12",
+    "title": "Klasifikasi informasi",
+    "objective": "Memastikan informasi menerima tingkat perlindungan yang sesuai dengan pentingnya bagi organisasi.",
+    "description": "Informasi harus diklasifikasikan berdasarkan persyaratan hukum, nilai, kritikalitas, dan sensitivitasnya terhadap pengungkapan atau modifikasi yang tidak sah. Skema klasifikasi harus konsisten di seluruh organisasi dan mencakup tingkatan seperti rahasia, terbatas, internal, dan publik. Klasifikasi informasi harus mempertimbangkan kebutuhan bisnis untuk berbagi atau membatasi akses informasi serta dampak bisnis yang terkait dengan kebutuhan tersebut. Pemilik aset informasi bertanggung jawab untuk menetapkan klasifikasi dan meninjau klasifikasi tersebut secara berkala.",
+    "implementation_guidance": "Tetapkan skema klasifikasi informasi dengan minimal empat tingkat dan pastikan semua pemilik informasi memahami cara mengklasifikasikan aset informasi mereka."
+  },
+  {
+    "control_id": "A.5.13",
+    "title": "Pelabelan informasi",
+    "objective": "Memastikan informasi dilabeli sesuai dengan skema klasifikasi yang ditetapkan.",
+    "description": "Serangkaian prosedur yang sesuai untuk pelabelan informasi harus dikembangkan dan diimplementasikan sesuai dengan skema klasifikasi informasi yang diadopsi oleh organisasi. Pelabelan harus diterapkan pada informasi dalam format fisik dan elektronik termasuk dokumen cetak, media penyimpanan, email, transfer file, dan tampilan layar. Prosedur pelabelan harus mencakup cara melabeli informasi untuk setiap tingkat klasifikasi, kapan pelabelan diperlukan, dan pengecualian yang diizinkan. Sistem informasi harus mendukung pelabelan otomatis di mana memungkinkan.",
+    "implementation_guidance": "Kembangkan prosedur pelabelan yang jelas untuk setiap format informasi dan tingkat klasifikasi, termasuk template label standar dan panduan penerapannya."
+  },
+  {
+    "control_id": "A.5.14",
+    "title": "Transfer informasi",
+    "objective": "Memastikan keamanan informasi yang ditransfer dalam organisasi dan dengan pihak eksternal.",
+    "description": "Aturan, prosedur, atau perjanjian transfer informasi harus diterapkan untuk semua jenis fasilitas transfer dalam organisasi dan antara organisasi dengan pihak eksternal. Transfer informasi mencakup transfer elektronik, transfer media fisik, dan transfer verbal. Pengendalian harus mencakup enkripsi data selama transmisi, verifikasi identitas pengirim dan penerima, pencatatan transfer informasi sensitif, dan prosedur untuk penanganan media fisik selama transit. Perjanjian kerahasiaan atau non-disclosure agreement harus ditandatangani oleh pihak yang terlibat dalam transfer informasi rahasia.",
+    "implementation_guidance": "Tetapkan prosedur transfer informasi yang mencakup enkripsi end-to-end, verifikasi penerima, dan pencatatan audit untuk semua transfer informasi sensitif."
+  },
+  {
+    "control_id": "A.5.15",
+    "title": "Pengendalian akses",
+    "objective": "Membatasi akses ke informasi dan fasilitas pemrosesan informasi.",
+    "description": "Kebijakan pengendalian akses harus ditetapkan, didokumentasikan, dan ditinjau berdasarkan persyaratan bisnis dan keamanan informasi. Kebijakan ini harus mencakup persyaratan akses untuk proses bisnis dan aplikasi, konsistensi antara kebijakan akses dan klasifikasi informasi, persyaratan regulasi dan kontraktual, profil akses standar untuk peran pekerjaan umum, dan prosedur untuk otorisasi dan pencabutan akses. Prinsip need-to-know dan least privilege harus diterapkan secara konsisten untuk memastikan pengguna hanya memiliki akses yang diperlukan untuk menjalankan tugasnya.",
+    "implementation_guidance": "Kembangkan kebijakan pengendalian akses berbasis peran (RBAC) yang mendefinisikan hak akses untuk setiap peran dan implementasikan proses persetujuan formal untuk pemberian akses."
+  },
+  {
+    "control_id": "A.5.16",
+    "title": "Manajemen identitas",
+    "objective": "Memastikan identitas pengguna dikelola sepanjang siklus hidupnya.",
+    "description": "Siklus hidup penuh identitas pengguna harus dikelola termasuk pendaftaran, penyediaan, pemeliharaan, dan pencabutan identitas pengguna serta kredensial autentikasi. Proses manajemen identitas harus mencakup verifikasi identitas pengguna sebelum pendaftaran, penggunaan identitas unik untuk setiap pengguna, pencegahan penggunaan ulang identitas, penonaktifan identitas yang tidak digunakan secara tepat waktu, dan audit berkala terhadap identitas aktif. Organisasi harus memiliki prosedur yang jelas untuk menangani perubahan peran, transfer, dan pemutusan hubungan kerja yang mempengaruhi hak akses pengguna.",
+    "implementation_guidance": "Implementasikan sistem manajemen identitas terpusat dengan proses provisioning dan deprovisioning otomatis yang terintegrasi dengan sistem HR."
+  },
+  {
+    "control_id": "A.5.17",
+    "title": "Informasi autentikasi",
+    "objective": "Memastikan pengelolaan informasi autentikasi yang aman.",
+    "description": "Alokasi dan pengelolaan informasi autentikasi harus dikendalikan oleh proses manajemen formal termasuk pemberian saran kepada pengguna tentang penanganan informasi autentikasi yang tepat. Informasi autentikasi mencakup kata sandi, token keamanan, sertifikat digital, dan data biometrik. Pengendalian harus mencakup kebijakan kata sandi yang kuat (panjang minimum, kompleksitas, masa berlaku), perlindungan terhadap informasi autentikasi selama penyimpanan dan transmisi, larangan berbagi kredensial, dan mekanisme untuk memaksa perubahan kata sandi pada login pertama atau setelah reset.",
+    "implementation_guidance": "Tetapkan kebijakan kata sandi yang memerlukan minimal 12 karakter dengan kombinasi huruf, angka, dan simbol, serta implementasikan multi-factor authentication untuk sistem kritis."
+  },
+  {
+    "control_id": "A.5.18",
+    "title": "Hak akses",
+    "objective": "Memastikan bahwa hak akses pengguna diberikan, ditinjau, dan dicabut sesuai kebijakan.",
+    "description": "Hak akses pengguna harus disediakan, ditinjau, dimodifikasi, dan dicabut sesuai dengan kebijakan dan aturan pengendalian akses organisasi. Proses penyediaan hak akses harus mencakup otorisasi formal dari pemilik aset atau manajemen, verifikasi bahwa tingkat akses yang diberikan sesuai dengan kebijakan akses dan pemisahan tugas, pencatatan semua hak akses yang diberikan, dan peninjauan berkala hak akses untuk memastikan kesesuaian yang berkelanjutan. Hak akses istimewa harus diberikan secara terpisah dan dengan pengendalian yang lebih ketat.",
+    "implementation_guidance": "Implementasikan proses persetujuan bertingkat untuk pemberian hak akses dan lakukan tinjauan hak akses secara berkala minimal setiap enam bulan."
+  },
+  {
+    "control_id": "A.5.19",
+    "title": "Keamanan informasi dalam hubungan dengan pemasok",
+    "objective": "Memastikan perlindungan aset organisasi yang dapat diakses oleh pemasok.",
+    "description": "Persyaratan keamanan informasi untuk memitigasi risiko yang terkait dengan akses pemasok terhadap aset organisasi harus diidentifikasi dan didokumentasikan dalam perjanjian dengan pemasok. Persyaratan ini harus mencakup identifikasi dan dokumentasi jenis pemasok yang akan mengakses informasi organisasi, proses dan prosedur standar untuk mengelola hubungan pemasok, jenis informasi dan tingkat akses minimum yang diperlukan, serta pengendalian keamanan yang harus diterapkan oleh pemasok. Penilaian risiko harus dilakukan sebelum memberikan akses kepada pemasok.",
+    "implementation_guidance": "Kembangkan kerangka kerja manajemen risiko pemasok yang mencakup penilaian keamanan awal, persyaratan kontraktual keamanan, dan pemantauan berkelanjutan."
+  },
+  {
+    "control_id": "A.5.20",
+    "title": "Keamanan informasi dalam perjanjian pemasok",
+    "objective": "Mempertahankan tingkat keamanan informasi yang disepakati dalam hubungan pemasok.",
+    "description": "Persyaratan keamanan informasi yang relevan harus ditetapkan dan disepakati dengan setiap pemasok berdasarkan jenis hubungan pemasok dan jenis akses yang diberikan. Perjanjian dengan pemasok harus mencakup deskripsi informasi yang akan diakses, kewajiban kerahasiaan dan non-disclosure, standar keamanan yang harus dipenuhi, hak audit dan pemantauan, prosedur penanganan insiden, kewajiban pelaporan pelanggaran, serta persyaratan untuk pengembalian atau penghancuran informasi setelah berakhirnya kontrak. Perjanjian harus ditinjau dan diperbarui secara berkala.",
+    "implementation_guidance": "Sertakan klausul keamanan informasi standar dalam semua kontrak pemasok dan pastikan klausul tersebut ditinjau oleh tim keamanan informasi dan hukum."
+  },
+  {
+    "control_id": "A.5.21",
+    "title": "Pengelolaan keamanan informasi dalam rantai pasokan TIK",
+    "objective": "Mempertahankan tingkat keamanan informasi yang disepakati dalam rantai pasokan produk dan layanan TIK.",
+    "description": "Proses dan prosedur harus didefinisikan dan diimplementasikan untuk mengelola risiko keamanan informasi yang terkait dengan rantai pasokan produk dan layanan teknologi informasi dan komunikasi (TIK). Pengelolaan ini mencakup identifikasi dan dokumentasi rantai pasokan untuk produk dan layanan TIK kritis, penetapan persyaratan keamanan untuk pemasok dalam rantai pasokan, pemantauan praktik keamanan pemasok, dan penerapan mekanisme untuk memverifikasi bahwa produk dan layanan TIK yang diterima memenuhi persyaratan keamanan yang ditetapkan.",
+    "implementation_guidance": "Petakan rantai pasokan TIK kritis organisasi dan tetapkan persyaratan keamanan minimum untuk setiap tingkat dalam rantai pasokan."
+  },
+  {
+    "control_id": "A.5.22",
+    "title": "Pemantauan, peninjauan, dan pengelolaan perubahan layanan pemasok",
+    "objective": "Memastikan layanan pemasok dipantau dan dikelola perubahannya secara efektif.",
+    "description": "Organisasi harus secara teratur memantau, meninjau, mengevaluasi, dan mengelola perubahan dalam praktik keamanan informasi pemasok dan pemberian layanan. Pemantauan harus mencakup tinjauan tingkat layanan dan kepatuhan terhadap perjanjian, audit keamanan pemasok secara berkala, pemantauan insiden keamanan yang melibatkan pemasok, evaluasi perubahan dalam layanan atau kebijakan pemasok yang dapat mempengaruhi keamanan, dan penilaian dampak perubahan pemasok terhadap postur keamanan organisasi. Hasil pemantauan harus dilaporkan kepada manajemen yang bertanggung jawab.",
+    "implementation_guidance": "Tetapkan jadwal tinjauan pemasok berkala dan implementasikan proses eskalasi untuk penanganan masalah keamanan yang teridentifikasi."
+  },
+  {
+    "control_id": "A.5.23",
+    "title": "Keamanan informasi untuk penggunaan layanan cloud",
+    "objective": "Memastikan keamanan informasi dalam penggunaan layanan komputasi awan.",
+    "description": "Proses untuk akuisisi, penggunaan, pengelolaan, dan penghentian layanan cloud harus ditetapkan sesuai dengan persyaratan keamanan informasi organisasi. Pengendalian harus mencakup penilaian risiko keamanan sebelum adopsi layanan cloud, penetapan persyaratan keamanan dalam kontrak layanan cloud, pengelolaan akses dan identitas untuk layanan cloud, enkripsi data yang disimpan dan ditransmisikan melalui cloud, pemantauan keamanan layanan cloud, dan perencanaan untuk portabilitas data dan strategi keluar dari layanan cloud.",
+    "implementation_guidance": "Kembangkan kebijakan penggunaan layanan cloud yang mencakup kriteria pemilihan penyedia cloud, persyaratan keamanan minimum, dan prosedur migrasi data."
+  },
+  {
+    "control_id": "A.5.24",
+    "title": "Perencanaan dan persiapan pengelolaan insiden keamanan informasi",
+    "objective": "Memastikan pendekatan yang konsisten dan efektif untuk pengelolaan insiden keamanan informasi.",
+    "description": "Tanggung jawab dan prosedur manajemen harus ditetapkan untuk memastikan respons yang cepat, efektif, dan teratur terhadap insiden keamanan informasi. Perencanaan harus mencakup penetapan prosedur respons insiden, pembentukan tim respons insiden dengan peran dan tanggung jawab yang jelas, pengembangan prosedur pelaporan dan eskalasi, penyediaan sumber daya yang memadai untuk penanganan insiden, pelaksanaan latihan dan simulasi insiden secara berkala, serta dokumentasi dan pembelajaran dari insiden sebelumnya untuk perbaikan berkelanjutan.",
+    "implementation_guidance": "Bentuk tim respons insiden keamanan informasi (CSIRT) dengan prosedur operasi standar dan lakukan simulasi insiden minimal dua kali setahun."
+  },
+  {
+    "control_id": "A.5.25",
+    "title": "Penilaian dan keputusan tentang peristiwa keamanan informasi",
+    "objective": "Memastikan peristiwa keamanan informasi dinilai dan diklasifikasikan dengan tepat.",
+    "description": "Peristiwa keamanan informasi harus dinilai dan diputuskan apakah akan diklasifikasikan sebagai insiden keamanan informasi berdasarkan kriteria yang telah ditetapkan. Proses penilaian harus mencakup evaluasi tingkat keparahan berdasarkan dampak terhadap kerahasiaan, integritas, dan ketersediaan informasi, penentuan ruang lingkup peristiwa, identifikasi aset yang terdampak, penilaian potensi dampak bisnis, dan pengklasifikasian insiden berdasarkan prioritas penanganan. Kriteria klasifikasi harus didokumentasikan dan dipahami oleh semua personel yang terlibat dalam penanganan insiden.",
+    "implementation_guidance": "Kembangkan matriks klasifikasi insiden dengan kriteria yang jelas untuk setiap tingkat keparahan dan prioritas penanganan."
+  },
+  {
+    "control_id": "A.5.26",
+    "title": "Respons terhadap insiden keamanan informasi",
+    "objective": "Memastikan insiden keamanan informasi ditanggapi sesuai prosedur yang telah ditetapkan.",
+    "description": "Insiden keamanan informasi harus ditanggapi sesuai dengan prosedur yang telah didokumentasikan. Respons harus mencakup pengumpulan bukti sesegera mungkin setelah terjadinya insiden, pelaksanaan analisis forensik keamanan informasi jika diperlukan, eskalasi insiden sesuai dengan prosedur yang ditetapkan, pencatatan semua aktivitas respons untuk analisis selanjutnya, komunikasi keberadaan insiden kepada pihak yang berkepentingan, dan penanganan kerentanan yang menyebabkan atau berkontribusi terhadap insiden. Koordinasi dengan pihak eksternal seperti penegak hukum harus dilakukan jika diperlukan.",
+    "implementation_guidance": "Dokumentasikan prosedur respons insiden yang mencakup langkah-langkah containment, eradication, recovery, dan lessons learned."
+  },
+  {
+    "control_id": "A.5.27",
+    "title": "Pembelajaran dari insiden keamanan informasi",
+    "objective": "Menggunakan pengetahuan dari insiden keamanan informasi untuk memperkuat pengendalian.",
+    "description": "Pengetahuan yang diperoleh dari menganalisis dan menyelesaikan insiden keamanan informasi harus digunakan untuk mengurangi kemungkinan atau dampak insiden di masa depan. Proses pembelajaran harus mencakup analisis akar penyebab insiden, identifikasi kelemahan dalam pengendalian yang ada, rekomendasi perbaikan untuk mencegah insiden serupa, pembaruan prosedur dan kebijakan berdasarkan temuan, pembagian pelajaran yang dipetik dengan personel yang relevan, dan pemantauan efektivitas tindakan perbaikan yang diimplementasikan. Hasil pembelajaran harus didokumentasikan dan diintegrasikan ke dalam program peningkatan keamanan informasi.",
+    "implementation_guidance": "Lakukan post-incident review untuk setiap insiden signifikan dan integrasikan temuan ke dalam program perbaikan berkelanjutan keamanan informasi."
+  },
+  {
+    "control_id": "A.5.28",
+    "title": "Pengumpulan bukti",
+    "objective": "Memastikan pengumpulan dan pelestarian bukti yang tepat terkait insiden keamanan informasi.",
+    "description": "Organisasi harus mendefinisikan dan menerapkan prosedur untuk identifikasi, pengumpulan, akuisisi, dan pelestarian bukti yang terkait dengan peristiwa keamanan informasi. Prosedur pengumpulan bukti harus memastikan bahwa bukti dikumpulkan dengan cara yang dapat diterima secara hukum, rantai pengawasan bukti didokumentasikan dengan jelas, integritas bukti digital dipastikan melalui teknik forensik yang tepat, dan bukti disimpan dengan aman untuk mencegah kerusakan atau modifikasi. Personel yang terlibat dalam pengumpulan bukti harus terlatih dalam prosedur forensik digital.",
+    "implementation_guidance": "Tetapkan prosedur pengumpulan bukti digital yang sesuai dengan standar forensik dan pastikan personel yang bertanggung jawab memiliki pelatihan yang memadai."
+  },
+  {
+    "control_id": "A.5.29",
+    "title": "Keamanan informasi selama gangguan",
+    "objective": "Memastikan keamanan informasi dipertahankan selama gangguan operasional.",
+    "description": "Organisasi harus merencanakan cara mempertahankan keamanan informasi pada tingkat yang sesuai selama gangguan. Perencanaan harus mencakup identifikasi persyaratan keamanan informasi yang harus dipertahankan selama gangguan, integrasi pengendalian keamanan informasi ke dalam rencana kelangsungan bisnis, pengujian pengendalian keamanan informasi dalam skenario gangguan, dan penyesuaian pengendalian keamanan jika diperlukan selama operasi darurat. Tingkat keamanan minimum yang harus dipertahankan selama gangguan harus didefinisikan dan disepakati oleh manajemen.",
+    "implementation_guidance": "Integrasikan persyaratan keamanan informasi ke dalam rencana kelangsungan bisnis dan disaster recovery, dan uji secara berkala."
+  },
+  {
+    "control_id": "A.5.30",
+    "title": "Kesiapan TIK untuk kelangsungan bisnis",
+    "objective": "Memastikan ketersediaan fasilitas pemrosesan informasi untuk kelangsungan bisnis.",
+    "description": "Kesiapan teknologi informasi dan komunikasi harus direncanakan, diimplementasikan, dipelihara, dan diuji berdasarkan tujuan kelangsungan bisnis dan persyaratan kelangsungan TIK. Perencanaan harus mencakup identifikasi layanan TIK kritis dan ketergantungannya, penetapan target waktu pemulihan (RTO) dan target titik pemulihan (RPO), pengembangan strategi pemulihan untuk layanan TIK kritis, implementasi solusi redundansi dan failover, dan pengujian rencana pemulihan TIK secara berkala untuk memastikan efektivitasnya.",
+    "implementation_guidance": "Tetapkan RTO dan RPO untuk setiap layanan TIK kritis dan implementasikan solusi backup dan disaster recovery yang sesuai."
+  },
+  {
+    "control_id": "A.5.31",
+    "title": "Identifikasi persyaratan hukum, perundang-undangan, regulasi, dan kontraktual",
+    "objective": "Memastikan kepatuhan terhadap persyaratan hukum dan regulasi yang berlaku.",
+    "description": "Semua persyaratan hukum, perundang-undangan, regulasi, dan kontraktual yang relevan serta pendekatan organisasi untuk memenuhi persyaratan tersebut harus secara eksplisit diidentifikasi, didokumentasikan, dan dipelihara terkini untuk setiap sistem informasi dan organisasi secara keseluruhan. Identifikasi harus mencakup undang-undang perlindungan data pribadi, persyaratan regulasi industri, kewajiban kontraktual dengan pelanggan dan pemasok, persyaratan keamanan siber nasional, dan standar yang berlaku. Organisasi harus menunjuk personel yang bertanggung jawab untuk memantau perubahan persyaratan hukum.",
+    "implementation_guidance": "Buat register kepatuhan yang mencantumkan semua persyaratan hukum dan regulasi yang berlaku termasuk UU PDP, dan tunjuk penanggung jawab kepatuhan."
+  },
+  {
+    "control_id": "A.5.32",
+    "title": "Hak kekayaan intelektual",
+    "objective": "Memastikan kepatuhan terhadap persyaratan hukum terkait hak kekayaan intelektual.",
+    "description": "Prosedur yang sesuai harus diimplementasikan untuk memastikan kepatuhan terhadap persyaratan hukum, perundang-undangan, regulasi, dan kontraktual yang terkait dengan hak kekayaan intelektual dan penggunaan produk perangkat lunak berlisensi. Pengendalian harus mencakup kebijakan penggunaan perangkat lunak berlisensi yang jelas, prosedur untuk memastikan hanya perangkat lunak berlisensi yang diinstal, audit perangkat lunak secara berkala untuk mendeteksi perangkat lunak tidak berlisensi, pencatatan lisensi perangkat lunak termasuk tanggal kedaluwarsa, dan pengendalian terhadap distribusi perangkat lunak berlisensi kepada pihak ketiga.",
+    "implementation_guidance": "Implementasikan sistem manajemen lisensi perangkat lunak dan lakukan audit kepatuhan lisensi secara berkala."
+  },
+  {
+    "control_id": "A.5.33",
+    "title": "Perlindungan catatan",
+    "objective": "Memastikan catatan organisasi dilindungi dari kehilangan, perusakan, dan pemalsuan.",
+    "description": "Catatan harus dilindungi dari kehilangan, perusakan, pemalsuan, akses tidak sah, dan rilis tidak sah sesuai dengan persyaratan hukum, perundang-undangan, regulasi, kontraktual, dan bisnis. Pengendalian harus mencakup penetapan jadwal retensi catatan berdasarkan persyaratan hukum dan bisnis, penyimpanan catatan yang aman baik dalam format fisik maupun elektronik, pengendalian akses terhadap catatan sensitif, prosedur untuk pemusnahan catatan yang aman setelah periode retensi berakhir, dan perlindungan terhadap integritas catatan elektronik melalui backup dan verifikasi berkala.",
+    "implementation_guidance": "Tetapkan kebijakan retensi catatan dengan jadwal yang jelas dan implementasikan sistem penyimpanan yang aman dengan kontrol akses yang tepat."
+  },
+  {
+    "control_id": "A.5.34",
+    "title": "Privasi dan perlindungan data pribadi",
+    "objective": "Memastikan kepatuhan terhadap persyaratan privasi dan perlindungan data pribadi.",
+    "description": "Privasi dan perlindungan data pribadi harus dipastikan sesuai yang disyaratkan dalam hukum dan regulasi yang berlaku serta persyaratan kontraktual yang relevan. Pengendalian harus mencakup pengembangan dan implementasi kebijakan privasi data, pelaksanaan penilaian dampak privasi untuk pemrosesan data baru, penerapan prinsip minimisasi data dan pembatasan tujuan, implementasi mekanisme untuk memenuhi hak subjek data, penetapan prosedur untuk penanganan pelanggaran data pribadi, dan penunjukan petugas perlindungan data jika diperlukan oleh regulasi.",
+    "implementation_guidance": "Kembangkan program perlindungan data pribadi yang sesuai dengan UU Perlindungan Data Pribadi dan regulasi terkait lainnya."
+  },
+  {
+    "control_id": "A.5.35",
+    "title": "Tinjauan independen keamanan informasi",
+    "objective": "Memastikan pendekatan organisasi untuk mengelola keamanan informasi ditinjau secara independen.",
+    "description": "Pendekatan organisasi untuk mengelola keamanan informasi dan implementasinya termasuk orang, proses, dan teknologi harus ditinjau secara independen pada interval yang direncanakan atau ketika terjadi perubahan signifikan. Tinjauan independen harus dilakukan oleh pihak yang tidak terlibat langsung dalam implementasi keamanan informasi dan harus mencakup penilaian efektivitas pengendalian keamanan, kepatuhan terhadap kebijakan dan standar, kecukupan sumber daya keamanan informasi, dan rekomendasi perbaikan. Hasil tinjauan harus dilaporkan kepada manajemen puncak.",
+    "implementation_guidance": "Jadwalkan audit keamanan informasi independen secara berkala dan pastikan temuan ditindaklanjuti dalam kerangka waktu yang ditetapkan."
+  },
+  {
+    "control_id": "A.5.36",
+    "title": "Kepatuhan terhadap kebijakan dan standar keamanan informasi",
+    "objective": "Memastikan kepatuhan terhadap kebijakan, aturan, dan standar keamanan informasi organisasi.",
+    "description": "Kepatuhan terhadap kebijakan keamanan informasi, kebijakan topik spesifik, aturan, dan standar organisasi harus ditinjau secara teratur. Manajer harus secara teratur meninjau kepatuhan pemrosesan dan prosedur informasi dalam area tanggung jawab mereka terhadap kebijakan keamanan informasi, standar, dan persyaratan keamanan lainnya yang berlaku. Jika ketidakpatuhan ditemukan, tindakan korektif harus diambil secara tepat waktu dan efektivitas tindakan tersebut harus diverifikasi. Hasil tinjauan kepatuhan harus dicatat dan dilaporkan kepada manajemen.",
+    "implementation_guidance": "Implementasikan program tinjauan kepatuhan keamanan informasi berkala dengan checklist standar dan proses eskalasi untuk ketidakpatuhan."
+  },
+  {
+    "control_id": "A.5.37",
+    "title": "Prosedur operasional yang didokumentasikan",
+    "objective": "Memastikan operasi fasilitas pemrosesan informasi dilakukan dengan benar dan aman.",
+    "description": "Prosedur operasional untuk fasilitas pemrosesan informasi harus didokumentasikan dan tersedia bagi semua pengguna yang membutuhkannya. Prosedur yang didokumentasikan harus mencakup instruksi untuk instalasi dan konfigurasi sistem, pemrosesan dan penanganan informasi baik otomatis maupun manual, backup dan pemulihan data, pengelolaan keluaran termasuk penanganan error, prosedur restart dan pemulihan untuk penggunaan jika terjadi kegagalan sistem, dan pengelolaan jejak audit serta informasi log sistem.",
+    "implementation_guidance": "Kembangkan dan pelihara dokumentasi prosedur operasional standar (SOP) untuk semua sistem kritis dan pastikan SOP ditinjau dan diperbarui secara berkala."
+  },
+  {
+    "control_id": "A.6.1",
+    "title": "Penyaringan",
+    "objective": "Memastikan karyawan dan kontraktor memenuhi persyaratan keamanan sebelum dipekerjakan.",
+    "description": "Pemeriksaan verifikasi latar belakang pada semua kandidat karyawan harus dilakukan sesuai dengan hukum, regulasi, dan etika yang relevan serta harus proporsional dengan persyaratan bisnis, klasifikasi informasi yang akan diakses, dan risiko yang teridentifikasi. Pemeriksaan harus mencakup verifikasi identitas, verifikasi riwayat pekerjaan, verifikasi kualifikasi akademik dan profesional, pemeriksaan catatan kriminal jika diizinkan oleh hukum, pemeriksaan kredit untuk posisi keuangan sensitif, dan verifikasi referensi dari pemberi kerja sebelumnya. Tingkat pemeriksaan harus disesuaikan dengan tingkat akses yang akan diberikan.",
+    "implementation_guidance": "Tetapkan prosedur penyaringan pra-kerja yang proporsional dengan tingkat akses dan sensitivitas posisi, dan pastikan kepatuhan terhadap hukum ketenagakerjaan."
+  },
+  {
+    "control_id": "A.6.2",
+    "title": "Syarat dan ketentuan ketenagakerjaan",
+    "objective": "Memastikan karyawan memahami tanggung jawab keamanan informasi mereka.",
+    "description": "Perjanjian kontraktual dengan karyawan dan kontraktor harus menyatakan tanggung jawab mereka dan tanggung jawab organisasi terkait keamanan informasi. Perjanjian harus mencakup kewajiban untuk mematuhi kebijakan keamanan informasi organisasi, tanggung jawab untuk perlindungan informasi dan aset, tindakan yang akan diambil jika terjadi pelanggaran keamanan, kewajiban kerahasiaan yang berlanjut setelah pemutusan hubungan kerja, tanggung jawab untuk melaporkan insiden keamanan, dan konsekuensi dari ketidakpatuhan terhadap kebijakan keamanan informasi.",
+    "implementation_guidance": "Sertakan klausul keamanan informasi dalam semua kontrak kerja dan perjanjian kontraktor, termasuk kewajiban kerahasiaan dan tanggung jawab keamanan."
+  },
+  {
+    "control_id": "A.6.3",
+    "title": "Kesadaran, pendidikan, dan pelatihan keamanan informasi",
+    "objective": "Memastikan karyawan dan kontraktor sadar akan tanggung jawab keamanan informasi mereka.",
+    "description": "Personel organisasi dan pihak berkepentingan yang relevan harus menerima kesadaran, pendidikan, dan pelatihan keamanan informasi yang sesuai serta pembaruan rutin tentang kebijakan dan prosedur organisasi yang relevan dengan fungsi pekerjaan mereka. Program kesadaran keamanan harus mencakup kebijakan keamanan informasi dan ekspektasi, ancaman keamanan terkini seperti phishing dan social engineering, prosedur pelaporan insiden, penggunaan yang aman dari sistem dan perangkat, serta tanggung jawab individu dalam menjaga keamanan informasi. Efektivitas program harus diukur secara berkala.",
+    "implementation_guidance": "Kembangkan program kesadaran keamanan informasi yang mencakup pelatihan awal untuk karyawan baru dan pelatihan penyegaran berkala minimal setiap tahun."
+  },
+  {
+    "control_id": "A.6.4",
+    "title": "Proses pendisiplinan",
+    "objective": "Memastikan tindakan disiplin yang tepat terhadap pelanggaran keamanan informasi.",
+    "description": "Proses pendisiplinan formal dan yang dikomunikasikan harus tersedia untuk mengambil tindakan terhadap personel dan pihak berkepentingan lainnya yang telah melakukan pelanggaran kebijakan keamanan informasi. Proses ini harus memastikan perlakuan yang adil dan benar terhadap personel yang dicurigai melakukan pelanggaran, menyediakan respons bertahap yang mempertimbangkan tingkat keparahan pelanggaran, dampak terhadap bisnis, apakah pelanggaran bersifat disengaja atau karena kelalaian, dan apakah ini merupakan pelanggaran pertama atau berulang. Proses pendisiplinan harus sejalan dengan hukum ketenagakerjaan yang berlaku.",
+    "implementation_guidance": "Tetapkan prosedur disiplin bertahap untuk pelanggaran keamanan informasi yang konsisten dengan kebijakan SDM dan hukum ketenagakerjaan."
+  },
+  {
+    "control_id": "A.6.5",
+    "title": "Tanggung jawab setelah pemutusan atau perubahan hubungan kerja",
+    "objective": "Melindungi kepentingan organisasi setelah pemutusan atau perubahan hubungan kerja.",
+    "description": "Tanggung jawab dan tugas keamanan informasi yang tetap berlaku setelah pemutusan atau perubahan hubungan kerja harus didefinisikan, dikomunikasikan kepada personel atau pihak berkepentingan, dan ditegakkan. Ini mencakup kewajiban kerahasiaan yang berlanjut sesuai dengan perjanjian non-disclosure, pengembalian semua aset organisasi, pencabutan hak akses secara tepat waktu, transfer pengetahuan yang diperlukan, dan pengingat tentang kewajiban hukum yang berkelanjutan terkait perlindungan informasi rahasia organisasi. Proses offboarding harus distandarisasi dan diaudit untuk memastikan kelengkapannya.",
+    "implementation_guidance": "Integrasikan prosedur keamanan informasi ke dalam proses offboarding termasuk pencabutan akses, pengembalian aset, dan pengingat kewajiban kerahasiaan."
+  },
+  {
+    "control_id": "A.6.6",
+    "title": "Perjanjian kerahasiaan atau non-disclosure",
+    "objective": "Memastikan kerahasiaan informasi melalui perjanjian formal.",
+    "description": "Perjanjian kerahasiaan atau non-disclosure yang mencerminkan kebutuhan organisasi untuk perlindungan informasi harus diidentifikasi, didokumentasikan, ditinjau secara teratur, dan ditandatangani oleh personel dan pihak eksternal yang relevan. Perjanjian harus mendefinisikan informasi yang dilindungi, durasi perjanjian, tindakan yang diperlukan saat perjanjian berakhir, tanggung jawab dan tindakan penandatangan untuk menghindari pengungkapan informasi yang tidak sah, kepemilikan informasi dan kekayaan intelektual, serta tindakan yang diharapkan jika terjadi pelanggaran perjanjian.",
+    "implementation_guidance": "Kembangkan template perjanjian kerahasiaan standar dan pastikan semua pihak yang memiliki akses ke informasi sensitif menandatangani perjanjian tersebut."
+  },
+  {
+    "control_id": "A.6.7",
+    "title": "Bekerja jarak jauh",
+    "objective": "Memastikan keamanan informasi saat personel bekerja dari jarak jauh.",
+    "description": "Langkah-langkah keamanan harus diimplementasikan ketika personel bekerja dari jarak jauh untuk melindungi informasi yang diakses, diproses, atau disimpan di luar lokasi organisasi. Pengendalian harus mencakup penyediaan peralatan dan infrastruktur komunikasi yang aman, persyaratan keamanan fisik untuk lokasi kerja jarak jauh, aturan penggunaan jaringan rumah dan publik, penggunaan VPN untuk akses ke jaringan organisasi, kebijakan penggunaan perangkat pribadi versus perangkat perusahaan, perlindungan terhadap ancaman malware, dan prosedur untuk backup data pada perangkat jarak jauh.",
+    "implementation_guidance": "Kembangkan kebijakan kerja jarak jauh yang mencakup persyaratan keamanan teknis dan fisik, termasuk penggunaan VPN, enkripsi perangkat, dan kesadaran keamanan."
+  },
+  {
+    "control_id": "A.6.8",
+    "title": "Pelaporan peristiwa keamanan informasi",
+    "objective": "Memastikan peristiwa keamanan informasi dilaporkan melalui saluran yang tepat secara tepat waktu.",
+    "description": "Personel harus melaporkan kelemahan keamanan informasi yang diamati atau dicurigai dalam sistem atau layanan melalui saluran pelaporan yang tepat secara tepat waktu. Mekanisme pelaporan harus mudah diakses dan digunakan, menyediakan panduan tentang apa yang harus dilaporkan dan bagaimana melaporkannya, memastikan kerahasiaan pelapor, dan memberikan umpan balik tentang tindakan yang diambil. Semua personel harus diedukasi tentang prosedur pelaporan dan pentingnya melaporkan peristiwa keamanan secara cepat untuk memungkinkan respons yang tepat waktu.",
+    "implementation_guidance": "Sediakan saluran pelaporan insiden yang mudah diakses seperti hotline, email khusus, atau portal web, dan pastikan semua personel mengetahui cara menggunakannya."
+  },
+  {
+    "control_id": "A.7.1",
+    "title": "Perimeter keamanan fisik",
+    "objective": "Mencegah akses fisik yang tidak sah, kerusakan, dan gangguan terhadap informasi dan fasilitas pemrosesan informasi.",
+    "description": "Perimeter keamanan harus didefinisikan dan digunakan untuk melindungi area yang berisi informasi sensitif atau kritis dan fasilitas pemrosesan informasi. Perimeter keamanan fisik harus mencakup dinding, pintu terkunci, penjaga keamanan, dan hambatan fisik lainnya yang sesuai dengan tingkat risiko. Batas perimeter harus jelas didefinisikan dan kekuatan setiap elemen perimeter harus konsisten dengan penilaian risiko. Area resepsi yang diawasi atau cara lain untuk mengendalikan akses fisik harus disediakan, dan pintu darurat harus dilengkapi dengan alarm dan pemantauan.",
+    "implementation_guidance": "Lakukan penilaian risiko keamanan fisik dan implementasikan perimeter keamanan yang sesuai termasuk kontrol akses fisik, CCTV, dan penjaga keamanan."
+  },
+  {
+    "control_id": "A.7.2",
+    "title": "Kontrol masuk fisik",
+    "objective": "Memastikan hanya personel yang berwenang yang dapat mengakses area aman.",
+    "description": "Area aman harus dilindungi oleh kontrol masuk yang sesuai untuk memastikan bahwa hanya personel yang berwenang yang diizinkan masuk. Kontrol masuk harus mencakup sistem kartu akses atau biometrik untuk area sensitif, pencatatan tanggal dan waktu masuk dan keluar pengunjung, pengawalan pengunjung di area aman, pembatasan akses berdasarkan peran dan kebutuhan bisnis, peninjauan berkala hak akses fisik, dan prosedur untuk menangani kehilangan kartu akses atau kegagalan sistem kontrol akses. Pengunjung harus didampingi dan aktivitas mereka dipantau selama berada di area aman.",
+    "implementation_guidance": "Implementasikan sistem kontrol akses fisik elektronik dengan pencatatan log dan tinjauan hak akses berkala untuk semua area aman."
+  },
+  {
+    "control_id": "A.7.3",
+    "title": "Mengamankan kantor, ruangan, dan fasilitas",
+    "objective": "Mencegah akses fisik yang tidak sah ke kantor, ruangan, dan fasilitas.",
+    "description": "Keamanan fisik untuk kantor, ruangan, dan fasilitas harus dirancang dan diterapkan sesuai dengan tingkat risiko dan nilai aset yang dilindungi. Pengendalian harus mencakup penguncian kantor dan ruangan saat tidak digunakan, penempatan fasilitas kritis di lokasi yang tidak mudah terlihat atau diakses oleh publik, pemisahan area publik dari area kerja internal, pengendalian akses ke ruang server dan pusat data, perlindungan terhadap ancaman lingkungan seperti kebakaran dan banjir, dan pemantauan melalui kamera keamanan atau sistem alarm.",
+    "implementation_guidance": "Terapkan kontrol keamanan fisik berlapis untuk kantor dan fasilitas berdasarkan klasifikasi zona keamanan dan penilaian risiko."
+  },
+  {
+    "control_id": "A.7.4",
+    "title": "Pemantauan keamanan fisik",
+    "objective": "Mendeteksi dan mencegah akses fisik yang tidak sah melalui pemantauan berkelanjutan.",
+    "description": "Fasilitas harus dipantau secara terus-menerus untuk mendeteksi akses fisik yang tidak sah. Pemantauan keamanan fisik harus mencakup penggunaan kamera pengawas (CCTV) di titik-titik strategis, sensor deteksi gerak dan intrusi, sistem alarm keamanan yang terhubung ke pusat pemantauan, patroli keamanan reguler, pemantauan pintu masuk dan keluar, dan pencatatan serta retensi rekaman pemantauan sesuai dengan persyaratan hukum dan kebijakan organisasi. Sistem pemantauan harus ditinjau secara berkala untuk memastikan cakupan dan efektivitasnya.",
+    "implementation_guidance": "Pasang dan pelihara sistem pemantauan keamanan fisik termasuk CCTV, alarm intrusi, dan prosedur respons terhadap alert keamanan."
+  },
+  {
+    "control_id": "A.7.5",
+    "title": "Perlindungan terhadap ancaman fisik dan lingkungan",
+    "objective": "Melindungi fasilitas dari ancaman fisik dan lingkungan.",
+    "description": "Perlindungan terhadap ancaman fisik dan lingkungan seperti bencana alam, serangan berbahaya yang disengaja, dan kecelakaan harus dirancang dan diterapkan. Perlindungan harus mencakup sistem pemadam kebakaran dan deteksi asap, sistem pendingin untuk ruang server, perlindungan terhadap banjir dan kelembaban, perlindungan terhadap gangguan listrik melalui UPS dan generator cadangan, perlindungan terhadap petir dan lonjakan listrik, serta rencana evakuasi dan prosedur darurat. Desain dan penempatan fasilitas harus mempertimbangkan risiko bencana alam yang spesifik untuk lokasi.",
+    "implementation_guidance": "Lakukan penilaian risiko lingkungan dan implementasikan perlindungan yang sesuai termasuk sistem pemadam kebakaran, UPS, pendingin, dan prosedur darurat."
+  },
+  {
+    "control_id": "A.7.6",
+    "title": "Bekerja di area aman",
+    "objective": "Mencegah kerusakan dan gangguan oleh personel yang bekerja di area aman.",
+    "description": "Panduan dan aturan untuk bekerja di area aman harus dirancang dan diterapkan untuk meningkatkan keamanan fisik. Pengendalian harus mencakup pembatasan pengetahuan tentang keberadaan dan aktivitas di area aman berdasarkan kebutuhan untuk mengetahui, larangan penggunaan peralatan fotografi, video, atau audio tanpa otorisasi, pengawasan ketat terhadap pekerjaan pemeliharaan oleh pihak ketiga di area aman, penguncian area aman saat tidak digunakan, dan pemeriksaan berkala bahwa area aman bebas dari peralatan perekam yang tidak sah.",
+    "implementation_guidance": "Tetapkan dan komunikasikan aturan ketat untuk bekerja di area aman termasuk pembatasan perangkat elektronik dan prosedur pengawasan."
+  },
+  {
+    "control_id": "A.7.7",
+    "title": "Meja bersih dan layar bersih",
+    "objective": "Mengurangi risiko akses tidak sah terhadap informasi melalui kebijakan meja dan layar bersih.",
+    "description": "Aturan meja bersih untuk dokumen kertas dan media penyimpanan yang dapat dilepas serta aturan layar bersih untuk fasilitas pemrosesan informasi harus didefinisikan dan diterapkan secara tepat. Kebijakan meja bersih mengharuskan informasi sensitif dalam format kertas atau elektronik disimpan dengan aman saat tidak digunakan, terutama saat kantor tidak berpenghuni. Kebijakan layar bersih mengharuskan komputer dikunci atau dimatikan saat ditinggalkan, sesi otomatis terkunci setelah periode tidak aktif, dan informasi sensitif tidak ditampilkan di layar yang dapat dilihat oleh orang yang tidak berwenang.",
+    "implementation_guidance": "Implementasikan kebijakan meja bersih dan layar bersih dengan penguncian layar otomatis setelah periode tidak aktif dan penyimpanan aman untuk dokumen sensitif."
+  },
+  {
+    "control_id": "A.7.8",
+    "title": "Penempatan dan perlindungan peralatan",
+    "objective": "Mengurangi risiko dari ancaman dan bahaya lingkungan terhadap peralatan.",
+    "description": "Peralatan harus ditempatkan dan dilindungi untuk mengurangi risiko dari ancaman dan bahaya lingkungan serta peluang akses yang tidak sah. Penempatan peralatan harus mempertimbangkan perlindungan terhadap suhu dan kelembaban yang berlebihan, debu dan getaran, radiasi elektromagnetik, risiko pencurian atau kerusakan, dan akses yang tidak sah. Peralatan yang memproses informasi sensitif harus ditempatkan untuk meminimalkan risiko informasi yang terlihat oleh orang yang tidak berwenang selama penggunaan, dan fasilitas penyimpanan harus diamankan untuk mencegah akses yang tidak sah.",
+    "implementation_guidance": "Tempatkan peralatan kritis di ruangan yang terkendali dengan kontrol lingkungan yang memadai dan akses terbatas."
+  },
+  {
+    "control_id": "A.7.9",
+    "title": "Keamanan aset di luar lokasi",
+    "objective": "Melindungi aset yang digunakan di luar lokasi organisasi.",
+    "description": "Aset yang berada di luar lokasi harus dilindungi dengan mempertimbangkan risiko yang berbeda dari bekerja di luar lokasi organisasi. Pengendalian harus mencakup enkripsi data pada perangkat portable, perlindungan fisik terhadap pencurian dan kerusakan, aturan untuk penggunaan peralatan di tempat umum, prosedur untuk melaporkan kehilangan atau pencurian peralatan, asuransi yang memadai untuk peralatan mobile, dan pembaruan keamanan dan patch secara berkala untuk perangkat yang digunakan di luar lokasi. Peralatan dan media yang dibawa keluar lokasi tidak boleh ditinggalkan tanpa pengawasan di tempat publik.",
+    "implementation_guidance": "Tetapkan kebijakan keamanan aset di luar lokasi yang mencakup enkripsi wajib, pelacakan perangkat, dan prosedur pelaporan kehilangan."
+  },
+  {
+    "control_id": "A.7.10",
+    "title": "Media penyimpanan",
+    "objective": "Mencegah pengungkapan, modifikasi, penghapusan, atau perusakan informasi yang tidak sah pada media penyimpanan.",
+    "description": "Media penyimpanan harus dikelola sepanjang siklus hidupnya mulai dari akuisisi, penggunaan, transportasi, dan pembuangan sesuai dengan skema klasifikasi dan persyaratan penanganan yang diadopsi oleh organisasi. Pengendalian harus mencakup prosedur pengelolaan media yang dapat dilepas, penghapusan data yang aman sebelum pembuangan atau penggunaan ulang media, otorisasi untuk pemindahan media dari organisasi, perlindungan media selama transportasi, dan pencatatan media yang berisi informasi sensitif. Media yang berisi informasi rahasia harus disimpan dengan aman dan dimusnahkan secara tepat saat tidak lagi diperlukan.",
+    "implementation_guidance": "Implementasikan prosedur pengelolaan media penyimpanan sepanjang siklus hidup termasuk sanitasi data yang aman sebelum pembuangan."
+  },
+  {
+    "control_id": "A.7.11",
+    "title": "Utilitas pendukung",
+    "objective": "Mencegah gangguan terhadap fasilitas pemrosesan informasi akibat kegagalan utilitas pendukung.",
+    "description": "Fasilitas pemrosesan informasi harus dilindungi dari kegagalan daya dan gangguan lainnya yang disebabkan oleh kegagalan utilitas pendukung. Utilitas pendukung mencakup listrik, telekomunikasi, pasokan air, gas, pembuangan limbah, ventilasi, dan pendingin udara. Pengendalian harus mencakup suplai daya tak terputus (UPS), generator cadangan, redundansi jalur telekomunikasi, pemantauan kapasitas utilitas, inspeksi dan pengujian peralatan utilitas secara berkala, dan perlindungan terhadap gangguan pada kabel listrik dan telekomunikasi. Alarm harus disediakan untuk mendeteksi malfungsi utilitas pendukung.",
+    "implementation_guidance": "Pasang UPS dan generator cadangan untuk sistem kritis dan lakukan pengujian berkala untuk memastikan fungsi yang tepat."
+  },
+  {
+    "control_id": "A.7.12",
+    "title": "Keamanan pengkabelan",
+    "objective": "Melindungi kabel daya dan telekomunikasi dari intersepsi, gangguan, dan kerusakan.",
+    "description": "Kabel yang membawa daya atau data atau mendukung layanan informasi harus dilindungi dari intersepsi, gangguan, dan kerusakan. Pengendalian harus mencakup penggunaan saluran kabel bawah tanah atau perlindungan fisik lainnya, pemisahan kabel daya dari kabel komunikasi untuk mencegah interferensi, penggunaan kabel berpelindung atau saluran tertutup untuk area sensitif, pengendalian akses ke panel patch dan ruang kabel, inspeksi berkala terhadap infrastruktur kabel, dan pelabelan kabel yang jelas untuk memudahkan identifikasi dan pemeliharaan.",
+    "implementation_guidance": "Lindungi infrastruktur kabel dengan saluran tertutup, pemisahan kabel daya dan data, serta kontrol akses ke ruang kabel dan panel distribusi."
+  },
+  {
+    "control_id": "A.7.13",
+    "title": "Pemeliharaan peralatan",
+    "objective": "Memastikan ketersediaan dan integritas peralatan melalui pemeliharaan yang tepat.",
+    "description": "Peralatan harus dipelihara dengan benar untuk memastikan ketersediaan, integritas, dan dukungan berkelanjutan terhadap keamanan informasi. Pemeliharaan harus mencakup pelaksanaan pemeliharaan sesuai dengan jadwal dan spesifikasi yang direkomendasikan pemasok, pembatasan pemeliharaan hanya oleh personel yang berwenang, pencatatan semua kerusakan yang dicurigai atau aktual dan semua pemeliharaan preventif dan korektif, pengendalian yang sesuai saat peralatan dikirim untuk pemeliharaan di luar lokasi, dan verifikasi bahwa peralatan berfungsi dengan benar setelah pemeliharaan.",
+    "implementation_guidance": "Tetapkan jadwal pemeliharaan preventif untuk semua peralatan kritis dan catat semua aktivitas pemeliharaan dalam sistem manajemen aset."
+  },
+  {
+    "control_id": "A.7.14",
+    "title": "Pembuangan atau penggunaan kembali peralatan secara aman",
+    "objective": "Mencegah kebocoran informasi dari peralatan yang dibuang atau digunakan kembali.",
+    "description": "Peralatan yang berisi media penyimpanan harus diverifikasi untuk memastikan bahwa data sensitif dan perangkat lunak berlisensi telah dihapus atau ditimpa secara aman sebelum pembuangan atau penggunaan kembali. Pengendalian harus mencakup penghapusan data menggunakan metode yang sesuai dengan tingkat sensitivitas informasi, penghancuran fisik media penyimpanan jika penghapusan aman tidak memungkinkan, sertifikasi penghapusan atau penghancuran data, dan pencatatan pembuangan peralatan termasuk detail data yang telah dihapus. Organisasi harus mempertimbangkan risiko bahwa data dapat dipulihkan dari peralatan yang dibuang menggunakan teknik forensik.",
+    "implementation_guidance": "Implementasikan prosedur sanitasi data yang sesuai dengan tingkat klasifikasi informasi sebelum pembuangan atau penggunaan kembali peralatan."
+  },
+  {
+    "control_id": "A.8.1",
+    "title": "Perangkat titik akhir pengguna",
+    "objective": "Melindungi informasi yang disimpan, diproses, atau diakses melalui perangkat titik akhir pengguna.",
+    "description": "Informasi yang disimpan pada, diproses oleh, atau diakses melalui perangkat titik akhir pengguna harus dilindungi. Perangkat titik akhir mencakup laptop, desktop, tablet, dan smartphone. Pengendalian harus mencakup kebijakan penggunaan perangkat yang dapat diterima, enkripsi data pada perangkat, perlindungan malware yang terkini, pembaruan keamanan otomatis, pengendalian instalasi perangkat lunak, kemampuan penghapusan jarak jauh untuk perangkat mobile, konfigurasi keamanan standar, dan pemantauan kepatuhan perangkat terhadap kebijakan keamanan organisasi.",
+    "implementation_guidance": "Implementasikan solusi manajemen perangkat titik akhir (MDM/EDR) dengan konfigurasi keamanan standar dan pemantauan kepatuhan."
+  },
+  {
+    "control_id": "A.8.2",
+    "title": "Hak akses istimewa",
+    "objective": "Membatasi dan mengendalikan alokasi serta penggunaan hak akses istimewa.",
+    "description": "Alokasi dan penggunaan hak akses istimewa harus dibatasi dan dikendalikan secara ketat. Hak akses istimewa mencakup akses administrator sistem, akses root, hak akses superuser, dan kemampuan konfigurasi sistem. Pengendalian harus mencakup identifikasi hak akses istimewa untuk setiap sistem, pemberian hak akses istimewa berdasarkan kebutuhan dan berdasarkan peristiwa, proses otorisasi formal untuk pemberian hak istimewa, pencatatan semua penggunaan hak akses istimewa, peninjauan berkala hak akses istimewa, dan larangan penggunaan akun istimewa untuk aktivitas bisnis rutin.",
+    "implementation_guidance": "Implementasikan manajemen akses istimewa (PAM) dengan prinsip least privilege, pencatatan sesi, dan tinjauan akses berkala."
+  },
+  {
+    "control_id": "A.8.3",
+    "title": "Pembatasan akses informasi",
+    "objective": "Memastikan akses ke informasi dibatasi sesuai dengan kebijakan pengendalian akses.",
+    "description": "Akses ke informasi dan fungsi sistem aplikasi harus dibatasi sesuai dengan kebijakan pengendalian akses yang ditetapkan. Pembatasan harus diimplementasikan melalui mekanisme teknis dan administratif termasuk kontrol akses berbasis peran dalam aplikasi, pembatasan menu dan fungsi berdasarkan otorisasi pengguna, pengendalian akses ke file data dan database, pembatasan kemampuan query dan modifikasi data, isolasi sistem sensitif, dan pembatasan akses ke kode sumber program. Sistem harus dikonfigurasi untuk menolak akses secara default kecuali secara eksplisit diotorisasi.",
+    "implementation_guidance": "Terapkan kontrol akses berbasis peran (RBAC) pada semua aplikasi dan sistem dengan prinsip deny-by-default."
+  },
+  {
+    "control_id": "A.8.4",
+    "title": "Akses ke kode sumber",
+    "objective": "Mencegah perubahan tidak sah terhadap kode sumber program.",
+    "description": "Akses baca dan tulis ke kode sumber, alat pengembangan, dan pustaka perangkat lunak harus dikelola dengan tepat untuk mencegah pengenalan fungsionalitas yang tidak sah dan menghindari perubahan yang tidak disengaja serta menjaga kerahasiaan kekayaan intelektual yang berharga. Pengendalian harus mencakup penyimpanan kode sumber dalam repositori terkendali, pembatasan akses ke kode sumber berdasarkan peran dan kebutuhan, pencatatan semua perubahan kode sumber melalui version control, tinjauan kode sebelum penggabungan ke cabang produksi, dan pemisahan lingkungan pengembangan dari lingkungan produksi.",
+    "implementation_guidance": "Gunakan sistem version control dengan kontrol akses berbasis peran dan terapkan proses code review wajib sebelum deployment ke produksi."
+  },
+  {
+    "control_id": "A.8.5",
+    "title": "Autentikasi yang aman",
+    "objective": "Memastikan pengguna dan entitas diautentikasi dengan aman.",
+    "description": "Teknologi dan prosedur autentikasi yang aman harus ditetapkan berdasarkan pembatasan akses informasi dan kebijakan pengendalian akses. Autentikasi yang aman harus mencakup penggunaan multi-factor authentication untuk akses ke sistem kritis, perlindungan terhadap serangan brute force melalui pembatasan percobaan login, enkripsi informasi autentikasi selama transmisi, kebijakan kata sandi yang kuat, pencegahan penggunaan kata sandi yang sebelumnya digunakan, dan mekanisme logout otomatis setelah periode tidak aktif. Sistem autentikasi harus menampilkan peringatan keamanan saat login dan mencatat semua percobaan autentikasi.",
+    "implementation_guidance": "Implementasikan multi-factor authentication untuk semua sistem kritis dan terapkan kebijakan kata sandi yang kuat dengan pembatasan percobaan login."
+  },
+  {
+    "control_id": "A.8.6",
+    "title": "Manajemen kapasitas",
+    "objective": "Memastikan ketersediaan sumber daya melalui pemantauan dan perencanaan kapasitas.",
+    "description": "Penggunaan sumber daya harus dipantau dan disesuaikan serta proyeksi harus dibuat terhadap persyaratan kapasitas masa depan untuk memastikan kinerja sistem yang diperlukan. Manajemen kapasitas harus mencakup pemantauan penggunaan CPU, memori, penyimpanan, dan bandwidth jaringan, identifikasi tren penggunaan dan pola pertumbuhan, perencanaan kapasitas berdasarkan proyeksi kebutuhan bisnis, penerapan ambang batas peringatan untuk penggunaan sumber daya, optimalisasi penggunaan sumber daya yang ada, dan perencanaan peningkatan kapasitas secara proaktif sebelum terjadi masalah kinerja.",
+    "implementation_guidance": "Implementasikan pemantauan kapasitas real-time dengan ambang peringatan dan lakukan perencanaan kapasitas minimal setiap kuartal."
+  },
+  {
+    "control_id": "A.8.7",
+    "title": "Perlindungan terhadap malware",
+    "objective": "Memastikan informasi dan fasilitas pemrosesan informasi dilindungi dari malware.",
+    "description": "Pengendalian deteksi, pencegahan, dan pemulihan untuk perlindungan terhadap malware harus diimplementasikan dikombinasikan dengan kesadaran pengguna yang sesuai. Pengendalian harus mencakup instalasi dan pembaruan rutin perangkat lunak anti-malware pada semua sistem, pemindaian otomatis file yang diterima melalui jaringan atau media penyimpanan, pemblokiran situs web berbahaya yang diketahui, pemantauan dan analisis log anti-malware, prosedur untuk menangani infeksi malware, dan program kesadaran pengguna tentang ancaman malware termasuk phishing dan ransomware. Definisi malware harus diperbarui secara teratur.",
+    "implementation_guidance": "Deploy solusi anti-malware enterprise pada semua endpoint dengan pembaruan definisi otomatis dan pemantauan terpusat."
+  },
+  {
+    "control_id": "A.8.8",
+    "title": "Manajemen kerentanan teknis",
+    "objective": "Mencegah eksploitasi kerentanan teknis.",
+    "description": "Informasi tentang kerentanan teknis dari sistem informasi yang digunakan harus diperoleh secara tepat waktu, paparan organisasi terhadap kerentanan tersebut harus dievaluasi, dan tindakan yang tepat harus diambil untuk menangani risiko terkait. Pengendalian harus mencakup inventarisasi aset perangkat lunak untuk manajemen kerentanan, pemantauan sumber informasi kerentanan (CVE, CERT), penilaian risiko kerentanan yang teridentifikasi, penerapan patch keamanan secara tepat waktu berdasarkan prioritas risiko, pengujian patch sebelum penerapan ke lingkungan produksi, dan pemindaian kerentanan secara berkala.",
+    "implementation_guidance": "Implementasikan program manajemen kerentanan dengan pemindaian berkala, penilaian risiko, dan SLA penerapan patch berdasarkan tingkat keparahan."
+  },
+  {
+    "control_id": "A.8.9",
+    "title": "Manajemen konfigurasi",
+    "objective": "Memastikan konfigurasi perangkat keras, perangkat lunak, layanan, dan jaringan dikelola dengan aman.",
+    "description": "Konfigurasi termasuk konfigurasi keamanan dari perangkat keras, perangkat lunak, layanan, dan jaringan harus ditetapkan, didokumentasikan, diimplementasikan, dipantau, dan ditinjau secara berkala. Manajemen konfigurasi harus mencakup penetapan baseline konfigurasi keamanan untuk semua sistem, pengendalian perubahan konfigurasi melalui proses formal, pemantauan konfigurasi untuk mendeteksi penyimpangan dari baseline, pengerasan sistem sesuai dengan panduan keamanan vendor dan standar industri, dokumentasi semua perubahan konfigurasi, dan peninjauan konfigurasi secara berkala.",
+    "implementation_guidance": "Tetapkan baseline konfigurasi keamanan untuk semua jenis sistem dan implementasikan pemantauan konfigurasi otomatis untuk mendeteksi drift."
+  },
+  {
+    "control_id": "A.8.10",
+    "title": "Penghapusan informasi",
+    "objective": "Memastikan informasi dihapus secara aman saat tidak lagi diperlukan.",
+    "description": "Informasi yang disimpan dalam sistem informasi, perangkat, atau media penyimpanan lainnya harus dihapus ketika tidak lagi diperlukan. Penghapusan harus dilakukan menggunakan metode yang sesuai dengan tingkat klasifikasi informasi dan memastikan informasi tidak dapat dipulihkan. Pengendalian harus mencakup prosedur penghapusan yang aman untuk setiap tingkat klasifikasi, verifikasi penghapusan yang berhasil, pencatatan penghapusan informasi sensitif, dan kepatuhan terhadap persyaratan retensi data sebelum penghapusan. Organisasi harus mempertimbangkan semua lokasi penyimpanan termasuk backup dan cache saat menghapus informasi.",
+    "implementation_guidance": "Implementasikan prosedur penghapusan informasi yang aman sesuai tingkat klasifikasi dan verifikasi kelengkapan penghapusan termasuk salinan backup."
+  },
+  {
+    "control_id": "A.8.11",
+    "title": "Penyamaran data",
+    "objective": "Membatasi paparan data sensitif melalui teknik penyamaran.",
+    "description": "Penyamaran data harus digunakan sesuai dengan kebijakan organisasi tentang pengendalian akses dan persyaratan bisnis lainnya dengan mempertimbangkan legislasi yang berlaku. Teknik penyamaran data mencakup pseudonimisasi, anonimisasi, masking, tokenisasi, dan generalisasi data. Penyamaran harus diterapkan untuk melindungi data pribadi dalam lingkungan non-produksi, meminimalkan paparan data sensitif kepada pengguna yang tidak memerlukan akses ke data asli, memenuhi persyaratan privasi data, dan mengurangi risiko kebocoran data selama pengembangan dan pengujian.",
+    "implementation_guidance": "Terapkan teknik penyamaran data untuk melindungi data sensitif di lingkungan non-produksi dan dalam laporan yang dapat diakses secara luas."
+  },
+  {
+    "control_id": "A.8.12",
+    "title": "Pencegahan kebocoran data",
+    "objective": "Mendeteksi dan mencegah pengungkapan dan ekstraksi informasi yang tidak sah.",
+    "description": "Langkah-langkah pencegahan kebocoran data harus diterapkan pada sistem, jaringan, dan perangkat apa pun yang memproses, menyimpan, atau mentransmisikan informasi sensitif. Pengendalian harus mencakup pemantauan aliran data untuk mendeteksi transfer data yang tidak sah, pembatasan penggunaan media yang dapat dilepas, kontrol terhadap pengiriman email dengan lampiran sensitif, pemantauan upload ke layanan cloud yang tidak diotorisasi, pencegahan pencetakan dokumen sensitif tanpa otorisasi, dan penerapan watermark digital pada dokumen rahasia. Sistem DLP harus dikonfigurasi berdasarkan klasifikasi data dan kebijakan keamanan organisasi.",
+    "implementation_guidance": "Implementasikan solusi Data Loss Prevention (DLP) yang mencakup pemantauan endpoint, jaringan, dan cloud untuk mendeteksi dan mencegah kebocoran data sensitif."
+  },
+  {
+    "control_id": "A.8.13",
+    "title": "Backup informasi",
+    "objective": "Melindungi terhadap kehilangan data melalui backup yang teratur.",
+    "description": "Salinan backup informasi, perangkat lunak, dan konfigurasi sistem harus dipelihara dan diuji secara teratur sesuai dengan kebijakan backup yang telah disepakati. Kebijakan backup harus mendefinisikan ruang lingkup dan frekuensi backup, metode backup (penuh, inkremental, diferensial), periode retensi backup, lokasi penyimpanan backup termasuk penyimpanan di luar lokasi, enkripsi backup untuk informasi sensitif, prosedur pemulihan dan pengujian pemulihan, serta pemantauan keberhasilan dan kegagalan backup. Pengujian pemulihan harus dilakukan secara berkala untuk memverifikasi integritas dan keandalan backup.",
+    "implementation_guidance": "Tetapkan kebijakan backup dengan strategi 3-2-1 (3 salinan, 2 media berbeda, 1 di luar lokasi) dan lakukan pengujian pemulihan secara berkala."
+  },
+  {
+    "control_id": "A.8.14",
+    "title": "Redundansi fasilitas pemrosesan informasi",
+    "objective": "Memastikan ketersediaan fasilitas pemrosesan informasi melalui redundansi.",
+    "description": "Fasilitas pemrosesan informasi harus diimplementasikan dengan redundansi yang cukup untuk memenuhi persyaratan ketersediaan. Redundansi harus mencakup duplikasi komponen kritis sistem termasuk server, penyimpanan, dan jaringan, implementasi arsitektur high availability dan failover, replikasi data antara lokasi primer dan sekunder, penggunaan load balancing untuk mendistribusikan beban kerja, penyediaan lokasi pemulihan bencana, dan pengujian berkala mekanisme failover. Tingkat redundansi harus didasarkan pada penilaian risiko dan analisis dampak bisnis.",
+    "implementation_guidance": "Implementasikan redundansi pada komponen kritis infrastruktur TI berdasarkan analisis dampak bisnis dan persyaratan ketersediaan."
+  },
+  {
+    "control_id": "A.8.15",
+    "title": "Pencatatan log",
+    "objective": "Merekam peristiwa dan menghasilkan bukti untuk mendukung investigasi.",
+    "description": "Log yang mencatat aktivitas, pengecualian, kesalahan, dan peristiwa keamanan informasi lainnya harus dibuat, disimpan, dilindungi, dan dianalisis secara teratur. Pencatatan log harus mencakup aktivitas pengguna termasuk login dan logout, akses ke data sensitif, perubahan konfigurasi sistem, penggunaan hak akses istimewa, percobaan akses yang gagal, peristiwa keamanan dan alarm, serta aktivitas administrator sistem. Log harus dilindungi dari modifikasi dan akses yang tidak sah, disimpan sesuai dengan kebijakan retensi, dan dianalisis secara berkala untuk mendeteksi aktivitas mencurigakan.",
+    "implementation_guidance": "Implementasikan pencatatan log terpusat dengan SIEM untuk semua sistem kritis dan tetapkan kebijakan retensi log yang sesuai."
+  },
+  {
+    "control_id": "A.8.16",
+    "title": "Aktivitas pemantauan",
+    "objective": "Mendeteksi perilaku anomali dan potensi insiden keamanan informasi.",
+    "description": "Jaringan, sistem, dan aplikasi harus dipantau untuk perilaku anomali dan tindakan yang tepat harus diambil untuk mengevaluasi potensi insiden keamanan informasi. Pemantauan harus mencakup penggunaan alat pemantauan keamanan seperti SIEM dan IDS/IPS, penetapan baseline perilaku normal untuk mendeteksi anomali, pemantauan lalu lintas jaringan untuk aktivitas mencurigakan, korelasi peristiwa dari berbagai sumber, pembuatan peringatan otomatis untuk peristiwa kritis, dan prosedur eskalasi dan respons terhadap peringatan keamanan. Efektivitas aktivitas pemantauan harus ditinjau secara berkala.",
+    "implementation_guidance": "Deploy solusi pemantauan keamanan termasuk SIEM, IDS/IPS, dan pemantauan jaringan dengan prosedur respons yang jelas untuk setiap jenis alert."
+  },
+  {
+    "control_id": "A.8.17",
+    "title": "Sinkronisasi jam",
+    "objective": "Memastikan semua sistem menggunakan waktu yang tersinkronisasi untuk korelasi log yang akurat.",
+    "description": "Jam semua sistem pemrosesan informasi yang relevan dalam organisasi atau domain keamanan harus disinkronisasi ke sumber waktu referensi yang disetujui. Sinkronisasi jam penting untuk memastikan keakuratan log audit, korelasi peristiwa dari berbagai sistem, dukungan investigasi insiden keamanan, dan kepatuhan terhadap persyaratan hukum terkait pencatatan waktu. Pengendalian harus mencakup penggunaan protokol NTP atau sumber waktu yang setara, penetapan sumber waktu referensi yang disetujui, pemantauan penyimpangan waktu, dan dokumentasi prosedur sinkronisasi jam.",
+    "implementation_guidance": "Konfigurasi NTP pada semua sistem untuk sinkronisasi dengan sumber waktu referensi yang sama dan pantau penyimpangan waktu secara berkala."
+  },
+  {
+    "control_id": "A.8.18",
+    "title": "Penggunaan program utilitas istimewa",
+    "objective": "Mengendalikan penggunaan program yang dapat melewati kontrol sistem dan aplikasi.",
+    "description": "Penggunaan program utilitas yang mungkin mampu melewati pengendalian sistem dan aplikasi harus dibatasi dan dikendalikan secara ketat. Program utilitas istimewa mencakup alat diagnostik sistem, editor registri, debugger, alat pemantauan jaringan, dan utilitas administrasi lainnya. Pengendalian harus mencakup pembatasan instalasi program utilitas istimewa, otorisasi formal untuk penggunaan program utilitas, pencatatan penggunaan program utilitas, penghapusan program utilitas yang tidak diperlukan, pemisahan program utilitas dari perangkat lunak aplikasi, dan pembatasan ketersediaan program utilitas hanya kepada personel yang berwenang.",
+    "implementation_guidance": "Batasi akses ke program utilitas istimewa hanya untuk personel yang berwenang dan catat semua penggunaan untuk audit."
+  },
+  {
+    "control_id": "A.8.19",
+    "title": "Instalasi perangkat lunak pada sistem operasional",
+    "objective": "Memastikan integritas sistem operasional melalui pengendalian instalasi perangkat lunak.",
+    "description": "Prosedur dan tindakan harus diimplementasikan untuk mengelola instalasi perangkat lunak pada sistem operasional secara aman. Pengendalian harus mencakup pembatasan instalasi perangkat lunak hanya oleh personel yang berwenang, instalasi hanya perangkat lunak yang telah disetujui dan diuji, pencatatan semua instalasi dan pembaruan perangkat lunak, pengujian perangkat lunak di lingkungan non-produksi sebelum deployment, prosedur rollback untuk menangani masalah setelah instalasi, dan peninjauan berkala perangkat lunak yang terinstal untuk mendeteksi perangkat lunak yang tidak sah.",
+    "implementation_guidance": "Terapkan kebijakan whitelist perangkat lunak dan proses persetujuan formal untuk instalasi perangkat lunak baru pada sistem operasional."
+  },
+  {
+    "control_id": "A.8.20",
+    "title": "Keamanan jaringan",
+    "objective": "Melindungi informasi dalam jaringan dan fasilitas pemrosesan informasi pendukungnya.",
+    "description": "Jaringan dan perangkat jaringan harus diamankan, dikelola, dan dikendalikan untuk melindungi informasi dalam sistem dan aplikasi. Pengendalian keamanan jaringan harus mencakup konfigurasi firewall dan aturan akses jaringan, segmentasi jaringan untuk memisahkan zona keamanan, penerapan standar konfigurasi keamanan untuk perangkat jaringan, pemantauan lalu lintas jaringan, pengendalian akses ke perangkat administrasi jaringan, enkripsi transmisi data sensitif melalui jaringan, dan deteksi serta pencegahan intrusi jaringan. Arsitektur jaringan harus dirancang dengan prinsip pertahanan berlapis.",
+    "implementation_guidance": "Implementasikan arsitektur jaringan yang aman dengan segmentasi, firewall, IDS/IPS, dan pemantauan lalu lintas jaringan."
+  },
+  {
+    "control_id": "A.8.21",
+    "title": "Keamanan layanan jaringan",
+    "objective": "Memastikan keamanan layanan jaringan yang digunakan organisasi.",
+    "description": "Mekanisme keamanan, tingkat layanan, dan persyaratan layanan untuk layanan jaringan harus diidentifikasi, diimplementasikan, dan dipantau. Layanan jaringan mencakup layanan yang disediakan secara internal maupun oleh penyedia layanan eksternal seperti koneksi internet, VPN, dan layanan cloud. Pengendalian harus mencakup penetapan persyaratan keamanan dalam perjanjian layanan, pemantauan kinerja dan keamanan layanan jaringan, hak audit terhadap penyedia layanan, pengendalian akses ke layanan jaringan, dan prosedur untuk menangani gangguan layanan.",
+    "implementation_guidance": "Tetapkan SLA keamanan untuk semua layanan jaringan dan pantau kepatuhan penyedia layanan secara berkala."
+  },
+  {
+    "control_id": "A.8.22",
+    "title": "Pemisahan jaringan",
+    "objective": "Membatasi dampak insiden keamanan melalui segmentasi jaringan.",
+    "description": "Kelompok layanan informasi, pengguna, dan sistem informasi harus dipisahkan dalam jaringan organisasi. Pemisahan jaringan mengurangi risiko dengan membatasi kemampuan penyerang untuk bergerak lateral dalam jaringan setelah kompromi awal. Pengendalian harus mencakup segmentasi jaringan menggunakan VLAN, firewall, atau teknologi pemisahan lainnya, pembatasan lalu lintas antar segmen berdasarkan kebijakan keamanan, pemisahan jaringan server dari jaringan pengguna, isolasi sistem kritis dalam segmen jaringan yang dilindungi, dan pengujian efektivitas pemisahan jaringan secara berkala.",
+    "implementation_guidance": "Implementasikan segmentasi jaringan menggunakan VLAN dan firewall untuk memisahkan zona keamanan berdasarkan klasifikasi data dan fungsi bisnis."
+  },
+  {
+    "control_id": "A.8.23",
+    "title": "Penyaringan web",
+    "objective": "Melindungi sistem dari konten web berbahaya.",
+    "description": "Akses ke situs web eksternal harus dikelola untuk mengurangi paparan terhadap konten berbahaya. Penyaringan web harus mencakup pemblokiran akses ke situs web yang diketahui berbahaya atau berisi malware, pembatasan akses ke kategori situs web yang tidak sesuai dengan kebutuhan bisnis, pemantauan penggunaan internet untuk mendeteksi aktivitas mencurigakan, pemblokiran unduhan file dari sumber yang tidak tepercaya, penerapan inspeksi SSL/TLS untuk lalu lintas terenkripsi, dan pembaruan rutin database kategorisasi situs web. Kebijakan penyaringan web harus dikomunikasikan kepada semua pengguna.",
+    "implementation_guidance": "Deploy solusi penyaringan web yang memblokir situs berbahaya dan kategori tidak sesuai, dan pantau penggunaan internet secara terpusat."
+  },
+  {
+    "control_id": "A.8.24",
+    "title": "Penggunaan kriptografi",
+    "objective": "Memastikan penggunaan kriptografi yang tepat dan efektif untuk melindungi kerahasiaan, autentisitas, dan integritas informasi.",
+    "description": "Aturan untuk penggunaan efektif kriptografi termasuk manajemen kunci kriptografi harus didefinisikan dan diimplementasikan. Pengendalian harus mencakup kebijakan penggunaan kriptografi yang mendefinisikan kapan enkripsi diperlukan, standar algoritma kriptografi yang disetujui dan panjang kunci minimum, prosedur untuk manajemen kunci termasuk pembuatan, distribusi, penyimpanan, pembaruan, dan penghancuran kunci, penggunaan enkripsi untuk data at rest dan data in transit, implementasi tanda tangan digital untuk memastikan autentisitas dan integritas, serta kepatuhan terhadap persyaratan hukum terkait penggunaan kriptografi.",
+    "implementation_guidance": "Kembangkan kebijakan kriptografi yang mencakup standar algoritma, manajemen kunci, dan penggunaan enkripsi untuk data sensitif baik at rest maupun in transit."
+  },
+  {
+    "control_id": "A.8.25",
+    "title": "Siklus hidup pengembangan yang aman",
+    "objective": "Memastikan keamanan informasi dirancang dan diimplementasikan dalam siklus hidup pengembangan.",
+    "description": "Aturan untuk pengembangan perangkat lunak dan sistem yang aman harus ditetapkan dan diterapkan pada semua pengembangan dalam organisasi. Siklus hidup pengembangan yang aman harus mencakup persyaratan keamanan dalam fase perencanaan, pemodelan ancaman dan analisis risiko keamanan, standar pengkodean yang aman, tinjauan kode keamanan dan analisis kode statis, pengujian keamanan termasuk pengujian penetrasi, manajemen kerentanan dalam kode, dan pelatihan pengembang tentang praktik pengkodean yang aman. Metodologi pengembangan harus mengintegrasikan keamanan di setiap fase dari desain hingga deployment.",
+    "implementation_guidance": "Integrasikan praktik keamanan ke dalam SDLC termasuk threat modeling, secure coding standards, code review, dan security testing."
+  },
+  {
+    "control_id": "A.8.26",
+    "title": "Persyaratan keamanan aplikasi",
+    "objective": "Memastikan semua persyaratan keamanan informasi diidentifikasi dan ditangani dalam pengembangan aplikasi.",
+    "description": "Persyaratan keamanan informasi harus diidentifikasi, dispesifikasikan, dan disetujui ketika mengembangkan atau mengakuisisi aplikasi. Persyaratan harus mencakup kontrol autentikasi dan otorisasi, validasi input dan output, perlindungan terhadap serangan umum seperti injection dan cross-site scripting, enkripsi data sensitif, pencatatan log keamanan, penanganan error yang aman tanpa mengungkapkan informasi sensitif, dan kepatuhan terhadap standar keamanan aplikasi seperti OWASP. Persyaratan keamanan harus diprioritaskan berdasarkan penilaian risiko.",
+    "implementation_guidance": "Definisikan persyaratan keamanan aplikasi berdasarkan OWASP Top 10 dan integrasikan ke dalam proses pengembangan dan pengujian."
+  },
+  {
+    "control_id": "A.8.27",
+    "title": "Prinsip rekayasa dan arsitektur sistem yang aman",
+    "objective": "Memastikan prinsip keamanan diterapkan dalam desain dan arsitektur sistem.",
+    "description": "Prinsip untuk rekayasa sistem yang aman harus ditetapkan, didokumentasikan, dipelihara, dan diterapkan pada setiap kegiatan pengembangan sistem informasi. Prinsip rekayasa yang aman mencakup pertahanan berlapis (defense in depth), prinsip least privilege, gagal aman (fail secure), pemisahan tugas dalam desain sistem, minimisasi permukaan serangan, validasi input di semua titik masuk, penanganan error yang aman, dan desain yang mempertimbangkan keamanan dari awal (security by design). Prinsip-prinsip ini harus ditinjau dan diperbarui secara berkala sesuai dengan perkembangan ancaman.",
+    "implementation_guidance": "Dokumentasikan dan terapkan prinsip arsitektur keamanan termasuk defense in depth, least privilege, dan security by design pada semua proyek pengembangan."
+  },
+  {
+    "control_id": "A.8.28",
+    "title": "Pengkodean yang aman",
+    "objective": "Memastikan perangkat lunak dikembangkan dengan mengikuti praktik pengkodean yang aman.",
+    "description": "Prinsip pengkodean yang aman harus diterapkan pada pengembangan perangkat lunak untuk mengurangi kerentanan keamanan dalam perangkat lunak. Praktik pengkodean yang aman mencakup validasi dan sanitasi semua input pengguna, penggunaan query berparameter untuk mencegah SQL injection, encoding output untuk mencegah cross-site scripting, manajemen sesi yang aman, penanganan error tanpa mengungkapkan informasi teknis, penggunaan pustaka kriptografi yang teruji, penghindaran hard-coded credentials, dan penerapan prinsip least privilege dalam kode. Pengembang harus menerima pelatihan reguler tentang pengkodean yang aman.",
+    "implementation_guidance": "Tetapkan standar pengkodean yang aman berdasarkan panduan OWASP dan lakukan tinjauan kode keamanan secara rutin."
+  },
+  {
+    "control_id": "A.8.29",
+    "title": "Pengujian keamanan dalam pengembangan dan penerimaan",
+    "objective": "Memvalidasi bahwa persyaratan keamanan informasi terpenuhi melalui pengujian.",
+    "description": "Proses pengujian keamanan harus didefinisikan dan diimplementasikan dalam siklus hidup pengembangan. Pengujian keamanan harus mencakup pengujian fungsional keamanan untuk memverifikasi kontrol keamanan bekerja sesuai spesifikasi, pengujian kerentanan menggunakan alat analisis kode statis dan dinamis, pengujian penetrasi untuk mengidentifikasi kelemahan yang dapat dieksploitasi, pengujian regresi keamanan setelah perubahan kode, pengujian keamanan konfigurasi, dan validasi bahwa temuan pengujian keamanan sebelumnya telah diperbaiki. Hasil pengujian harus didokumentasikan dan kerentanan yang teridentifikasi harus ditangani sebelum deployment.",
+    "implementation_guidance": "Integrasikan pengujian keamanan otomatis (SAST, DAST) ke dalam pipeline CI/CD dan lakukan pengujian penetrasi sebelum rilis produksi."
+  },
+  {
+    "control_id": "A.8.30",
+    "title": "Pengembangan yang dialihdayakan",
+    "objective": "Memastikan keamanan informasi dalam pengembangan yang dilakukan oleh pihak eksternal.",
+    "description": "Organisasi harus mengarahkan, memantau, dan meninjau aktivitas yang terkait dengan pengembangan sistem yang dialihdayakan. Pengendalian harus mencakup persyaratan keamanan dalam kontrak pengembangan, hak audit terhadap pihak pengembang, tinjauan kode keamanan untuk kode yang dikembangkan secara eksternal, pengujian keamanan sebelum penerimaan, perlindungan kekayaan intelektual, persyaratan untuk lingkungan pengembangan yang aman, dan pemantauan kepatuhan terhadap standar pengkodean yang aman. Organisasi harus mempertahankan kemampuan untuk mengevaluasi kualitas keamanan dari pekerjaan yang dialihdayakan.",
+    "implementation_guidance": "Sertakan persyaratan keamanan dalam kontrak pengembangan pihak ketiga dan lakukan security review terhadap kode yang dihasilkan sebelum penerimaan."
+  },
+  {
+    "control_id": "A.8.31",
+    "title": "Pemisahan lingkungan pengembangan, pengujian, dan produksi",
+    "objective": "Mengurangi risiko akses tidak sah atau perubahan terhadap lingkungan produksi.",
+    "description": "Lingkungan pengembangan, pengujian, dan produksi harus dipisahkan untuk mengurangi risiko akses tidak sah atau perubahan terhadap lingkungan operasional. Pemisahan harus mencakup penggunaan server, jaringan, dan akun terpisah untuk setiap lingkungan, pembatasan akses ke lingkungan produksi hanya untuk personel yang berwenang, penggunaan data yang dianonimisasi dalam lingkungan pengembangan dan pengujian, prosedur formal untuk memindahkan perangkat lunak dari pengembangan ke produksi, dan pemantauan lingkungan produksi untuk mendeteksi perubahan yang tidak sah.",
+    "implementation_guidance": "Pisahkan lingkungan pengembangan, pengujian, dan produksi secara fisik atau logis dengan kontrol akses yang ketat dan prosedur deployment formal."
+  },
+  {
+    "control_id": "A.8.32",
+    "title": "Manajemen perubahan",
+    "objective": "Memastikan perubahan pada fasilitas pemrosesan informasi dikelola dengan aman.",
+    "description": "Perubahan pada fasilitas pemrosesan informasi dan sistem informasi harus tunduk pada prosedur manajemen perubahan yang terkendali. Prosedur harus mencakup identifikasi dan pencatatan perubahan yang signifikan, perencanaan dan pengujian perubahan, penilaian dampak potensial termasuk dampak keamanan, prosedur persetujuan formal untuk perubahan, komunikasi detail perubahan kepada pihak yang relevan, prosedur fallback dan rollback untuk perubahan yang gagal, dan pencatatan hasil perubahan termasuk masalah yang terjadi. Perubahan darurat harus mengikuti prosedur yang dipercepat tetapi tetap terdokumentasi.",
+    "implementation_guidance": "Implementasikan proses manajemen perubahan formal dengan penilaian dampak keamanan, pengujian, persetujuan, dan dokumentasi untuk semua perubahan."
+  },
+  {
+    "control_id": "A.8.33",
+    "title": "Informasi pengujian",
+    "objective": "Memastikan data pengujian dilindungi dan dikelola dengan tepat.",
+    "description": "Informasi pengujian harus dipilih dengan tepat, dilindungi, dan dikelola. Pengendalian harus mencakup penggunaan data sintetis atau anonim sebagai pengganti data produksi untuk pengujian, prosedur untuk mengontrol penyalinan data produksi ke lingkungan pengujian jika diperlukan, perlindungan data pengujian sesuai dengan klasifikasinya, penghapusan data pengujian setelah pengujian selesai, pencatatan penggunaan data produksi dalam lingkungan pengujian, dan pembatasan akses ke data pengujian. Data produksi yang berisi data pribadi tidak boleh digunakan dalam lingkungan pengujian tanpa anonimisasi yang memadai.",
+    "implementation_guidance": "Gunakan data sintetis atau data yang dianonimisasi untuk pengujian dan tetapkan prosedur untuk pengelolaan data pengujian yang aman."
+  },
+  {
+    "control_id": "A.8.34",
+    "title": "Perlindungan sistem informasi selama pengujian audit",
+    "objective": "Meminimalkan dampak aktivitas audit terhadap sistem operasional.",
+    "description": "Pengujian audit dan aktivitas audit lainnya yang melibatkan penilaian sistem operasional harus direncanakan dan disepakati antara penguji dan manajemen yang tepat. Pengendalian harus mencakup perencanaan aktivitas audit untuk meminimalkan gangguan terhadap operasi bisnis, pembatasan akses auditor ke sistem berdasarkan kebutuhan audit, pemantauan aktivitas auditor selama pengujian, perlindungan terhadap alat audit dan hasil audit, pencegahan penyalahgunaan alat audit, dan pemulihan sistem setelah pengujian audit. Persyaratan dan ruang lingkup pengujian audit harus disepakati terlebih dahulu dengan manajemen yang bertanggung jawab.",
+    "implementation_guidance": "Tetapkan prosedur untuk perencanaan dan pelaksanaan audit sistem yang meminimalkan gangguan operasional dan melindungi integritas sistem."
+  }
+]

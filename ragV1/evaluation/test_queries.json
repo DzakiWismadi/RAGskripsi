@@ -1,0 +1,34 @@
+[
+  {
+    "query": "Organisasi telah menerapkan mekanisme login menggunakan username dan password untuk setiap karyawan. Namun, proses pemberian akses masih dilakukan secara manual oleh admin tanpa prosedur formal, dan tidak terdapat proses review berkala terhadap hak akses pengguna.",
+    "ground_truth": [
+      "A.9.1",
+      "A.9.2",
+      "A.9.4"
+    ]
+  },
+  {
+    "query": "Perusahaan belum memiliki kebijakan formal terkait pengembalian aset ketika karyawan resign.",
+    "ground_truth": [
+      "A.5.11"
+    ]
+  },
+  {
+    "query": "Tidak ada prosedur pencadangan data yang dilakukan secara berkala.",
+    "ground_truth": [
+      "A.8.13"
+    ]
+  },
+  {
+    "query": "Penggunaan password lemah dan tidak ada aturan kompleksitas.",
+    "ground_truth": [
+      "A.5.17"
+    ]
+  },
+  {
+    "query": "Akses administrator digunakan untuk aktivitas sehari-hari tanpa kontrol khusus.",
+    "ground_truth": [
+      "A.8.2"
+    ]
+  }
+]
