@@ -1,0 +1,49 @@
+Total controls enriched: 93
+
+=== Sample Control: A.5.1 ===
+Title: Kebijakan keamanan informasi
+
+keywords_en (10 items):
+  information security policy, security governance, management commitment, security framework, policy approval...
+
+keywords_id (10 items):
+  kebijakan keamanan informasi, tata kelola keamanan, komitmen manajemen, kerangka kerja keamanan, persetujuan kebijakan...
+
+audit_indicators_en (8 items):
+  1. no information security policy exists
+  2. policy not approved by management
+  3. policy not communicated to employees
+
+audit_indicators_id (8 items):
+  1. tidak ada kebijakan keamanan informasi
+  2. kebijakan tidak disetujui manajemen
+  3. kebijakan tidak dikomunikasikan ke karyawan
+
+related_assets_en (3 items):
+  policy documents, security governance framework, management system documentation
+
+related_assets_id (3 items):
+  dokumen kebijakan, kerangka kerja tata kelola keamanan, dokumen sistem manajemen
+
+security_principles_en (4 items):
+  governance, management commitment, policy-driven security, top-down approach
+
+security_principles_id (4 items):
+  tata kelola, komitmen manajemen, keamanan berbasis kebijakan, pendekatan dari atas ke bawah
+
+=== Additional Samples ===
+
+A.5.2: Peran dan tanggung jawab keamanan informasi
+  Audit indicators: 7 EN, 7 ID
+
+A.5.16: Manajemen identitas
+  Audit indicators: 6 EN, 6 ID
+
+A.5.31: Identifikasi persyaratan hukum, perundang-undangan, regulasi, dan kontraktual
+  Audit indicators: 5 EN, 5 ID
+
+A.8.2: Hak akses istimewa
+  Audit indicators: 0 EN, 0 ID
+
+A.8.34: Perlindungan sistem informasi selama pengujian audit
+  Audit indicators: 0 EN, 0 ID

@@ -1,0 +1,93 @@
+1. A.5.1: Kebijakan keamanan informasi
+2. A.5.2: Peran dan tanggung jawab keamanan informasi
+3. A.5.3: Pemisahan tugas
+4. A.5.4: Tanggung jawab manajemen
+5. A.5.5: Kontak dengan otoritas
+6. A.5.6: Kontak dengan kelompok kepentingan khusus
+7. A.5.7: Intelijen ancaman
+8. A.5.8: Keamanan informasi dalam manajemen proyek
+9. A.5.9: Inventarisasi informasi dan aset terkait lainnya
+10. A.5.10: Penggunaan informasi dan aset terkait yang dapat diterima
+11. A.5.11: Pengembalian aset
+12. A.5.12: Klasifikasi informasi
+13. A.5.13: Pelabelan informasi
+14. A.5.14: Transfer informasi
+15. A.5.15: Pengendalian akses
+16. A.5.16: Manajemen identitas
+17. A.5.17: Informasi autentikasi
+18. A.5.18: Hak akses
+19. A.5.19: Keamanan informasi dalam hubungan dengan pemasok
+20. A.5.20: Keamanan informasi dalam perjanjian pemasok
+21. A.5.21: Pengelolaan keamanan informasi dalam rantai pasokan TIK
+22. A.5.22: Pemantauan, peninjauan, dan pengelolaan perubahan layanan pemasok
+23. A.5.23: Keamanan informasi untuk penggunaan layanan cloud
+24. A.5.24: Perencanaan dan persiapan pengelolaan insiden keamanan informasi
+25. A.5.25: Penilaian dan keputusan tentang peristiwa keamanan informasi
+26. A.5.26: Respons terhadap insiden keamanan informasi
+27. A.5.27: Pembelajaran dari insiden keamanan informasi
+28. A.5.28: Pengumpulan bukti
+29. A.5.29: Keamanan informasi selama gangguan
+30. A.5.30: Kesiapan TIK untuk kelangsungan bisnis
+31. A.5.31: Identifikasi persyaratan hukum, perundang-undangan, regulasi, dan kontraktual
+32. A.5.32: Hak kekayaan intelektual
+33. A.5.33: Perlindungan catatan
+34. A.5.34: Privasi dan perlindungan data pribadi
+35. A.5.35: Tinjauan independen keamanan informasi
+36. A.5.36: Kepatuhan terhadap kebijakan dan standar keamanan informasi
+37. A.5.37: Prosedur operasional yang didokumentasikan
+38. A.6.1: Penyaringan
+39. A.6.2: Syarat dan ketentuan ketenagakerjaan
+40. A.6.3: Kesadaran, pendidikan, dan pelatihan keamanan informasi
+41. A.6.4: Proses pendisiplinan
+42. A.6.5: Tanggung jawab setelah pemutusan atau perubahan hubungan kerja
+43. A.6.6: Perjanjian kerahasiaan atau non-disclosure
+44. A.6.7: Bekerja jarak jauh
+45. A.6.8: Pelaporan peristiwa keamanan informasi
+46. A.7.1: Perimeter keamanan fisik
+47. A.7.2: Kontrol masuk fisik
+48. A.7.3: Mengamankan kantor, ruangan, dan fasilitas
+49. A.7.4: Pemantauan keamanan fisik
+50. A.7.5: Perlindungan terhadap ancaman fisik dan lingkungan
+51. A.7.6: Bekerja di area aman
+52. A.7.7: Meja bersih dan layar bersih
+53. A.7.8: Penempatan dan perlindungan peralatan
+54. A.7.9: Keamanan aset di luar lokasi
+55. A.7.10: Media penyimpanan
+56. A.7.11: Utilitas pendukung
+57. A.7.12: Keamanan pengkabelan
+58. A.7.13: Pemeliharaan peralatan
+59. A.7.14: Pembuangan atau penggunaan kembali peralatan secara aman
+60. A.8.1: Perangkat titik akhir pengguna
+61. A.8.2: Hak akses istimewa
+62. A.8.3: Pembatasan akses informasi
+63. A.8.4: Akses ke kode sumber
+64. A.8.5: Autentikasi yang aman
+65. A.8.6: Manajemen kapasitas
+66. A.8.7: Perlindungan terhadap malware
+67. A.8.8: Manajemen kerentanan teknis
+68. A.8.9: Manajemen konfigurasi
+69. A.8.10: Penghapusan informasi
+70. A.8.11: Penyamaran data
+71. A.8.12: Pencegahan kebocoran data
+72. A.8.13: Backup informasi
+73. A.8.14: Redundansi fasilitas pemrosesan informasi
+74. A.8.15: Pencatatan log
+75. A.8.16: Aktivitas pemantauan
+76. A.8.17: Sinkronisasi jam
+77. A.8.18: Penggunaan program utilitas istimewa
+78. A.8.19: Instalasi perangkat lunak pada sistem operasional
+79. A.8.20: Keamanan jaringan
+80. A.8.21: Keamanan layanan jaringan
+81. A.8.22: Pemisahan jaringan
+82. A.8.23: Penyaringan web
+83. A.8.24: Penggunaan kriptografi
+84. A.8.25: Siklus hidup pengembangan yang aman
+85. A.8.26: Persyaratan keamanan aplikasi
+86. A.8.27: Prinsip rekayasa dan arsitektur sistem yang aman
+87. A.8.28: Pengkodean yang aman
+88. A.8.29: Pengujian keamanan dalam pengembangan dan penerimaan
+89. A.8.30: Pengembangan yang dialihdayakan
+90. A.8.31: Pemisahan lingkungan pengembangan, pengujian, dan produksi
+91. A.8.32: Manajemen perubahan
+92. A.8.33: Informasi pengujian
+93. A.8.34: Perlindungan sistem informasi selama pengujian audit
