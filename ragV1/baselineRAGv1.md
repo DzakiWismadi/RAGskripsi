@@ -140,3 +140,5 @@ Weighted sum with fixed weights:
 
 cd D:\Hilmi\Coding\MasterFolderSkripsi\RAG\ragV1
 python app\app.py
+
+http://127.0.0.1:5001/
